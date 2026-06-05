@@ -1,0 +1,21 @@
+# Operating System
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+*.swo
+*~
+
+# IDE
+.idea/
+.vscode/
+*.sublime-*
+
+# Environment
+.env
+.env.local
+
+# Logs
+*.log
+
+# No need to ignore anything else - site is fully static
