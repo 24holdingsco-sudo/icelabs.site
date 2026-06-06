@@ -2,25 +2,88 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>404 - Page Not Found | ICELABS</title>
+  <meta name="description" content="Page not found. Browse ICELABS for honest TV series reviews, film commentary, and rankings across 8 categories.">
   <meta name="robots" content="noindex, follow">
   <link rel="canonical" href="https://icelabs.site/404.html">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <meta property="og:title" content="404 - Page Not Found | ICELABS">
+  <meta property="og:description" content="The page you're looking for doesn't exist. Explore ICELABS for 108 series reviews across 8 categories.">
+  <meta property="og:site_name" content="ICELABS">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <style>
     * { margin:0; padding:0; box-sizing:border-box; }
-    body { background:#000; color:#fff; font-family:'Inter',sans-serif; min-height:100vh; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; padding:2rem; }
-    h1 { font-family:'Space Grotesk',monospace; font-size:6rem; font-weight:700; color:#FFD700; line-height:1; margin-bottom:1rem; }
-    h2 { font-size:1.5rem; font-weight:600; margin-bottom:1rem; color:#e0e0e0; }
-    p { color:#aaa; margin-bottom:2rem; max-width:500px; }
-    a { display:inline-block; background:#FFD700; color:#000; text-decoration:none; padding:0.8rem 2rem; border-radius:40px; font-weight:700; transition:0.2s; }
-    a:hover { background:#fff; transform:translateY(-2px); }
+    body { background:#000; color:#fff; font-family:'Inter',sans-serif; min-height:100vh; display:flex; flex-direction:column; }
+    .container { max-width:700px; margin:auto; padding:3rem 2rem; text-align:center; flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center; }
+    .error-code { font-family:'Space Grotesk',monospace; font-size:8rem; font-weight:800; color:#FFD700; line-height:1; text-shadow:0 0 40px rgba(255,215,0,0.15); margin-bottom:1rem; }
+    .error-title { font-size:1.6rem; font-weight:600; margin-bottom:1rem; color:#e0e0e0; }
+    .error-desc { color:#888; margin-bottom:2rem; max-width:500px; line-height:1.7; }
+    .links-row { display:flex; gap:1rem; flex-wrap:wrap; justify-content:center; margin-bottom:2.5rem; }
+    .btn-primary { display:inline-flex; align-items:center; gap:8px; background:#FFD700; color:#000; text-decoration:none; padding:0.8rem 2rem; border-radius:40px; font-weight:700; transition:0.2s; }
+    .btn-primary:hover { background:#fff; transform:translateY(-2px); }
+    .btn-secondary { display:inline-flex; align-items:center; gap:8px; background:transparent; color:#aaa; text-decoration:none; padding:0.8rem 2rem; border-radius:40px; font-weight:600; border:1px solid #333; transition:0.2s; }
+    .btn-secondary:hover { border-color:#FFD700; color:#FFD700; }
+    .quick-links { display:flex; gap:1.5rem; flex-wrap:wrap; justify-content:center; }
+    .quick-links a { color:#666; text-decoration:none; font-size:0.85rem; transition:color 0.2s; }
+    .quick-links a:hover { color:#FFD700; }
+    footer { text-align:center; padding:2rem; border-top:1px solid #222; color:#666; font-size:0.85rem; }
+    footer a { color:#FFD700; text-decoration:none; }
+    .cookie-notice { position:fixed; bottom:20px; left:20px; max-width:400px; background:rgba(10,10,10,0.97); backdrop-filter:blur(12px); border:1px solid rgba(255,215,0,0.4); border-radius:20px; padding:20px; z-index:1000; box-shadow:0 10px 40px rgba(0,0,0,0.5); }
+    .cookie-notice p { font-size:0.85rem; margin-bottom:15px; color:#ccc; }
+    .cookie-buttons { display:flex; gap:10px; }
+    .cookie-btn { padding:10px 20px; border-radius:30px; font-weight:600; font-size:0.8rem; cursor:pointer; border:none; transition:0.2s; }
+    .cookie-btn.accept { background:#FFD700; color:#000; flex:1; }
+    .cookie-btn.accept:hover { background:#fff; }
+    .cookie-btn.decline { background:transparent; border:1px solid rgba(255,215,0,0.4); color:#aaa; }
+    .cookie-btn.decline:hover { border-color:#fff; color:#fff; }
+    @media (max-width:600px) { .error-code { font-size:5rem; } .container { padding:2rem 1.5rem; } .cookie-notice { left:10px; right:10px; max-width:none; } }
   </style>
 </head>
 <body>
-  <h1>404</h1>
-  <h2>Page Not Found</h2>
-  <p>The page you're looking for doesn't exist or has been moved. Browse our collection of film and series reviews instead.</p>
-  <a href="/">BACK TO ICELABS HOME</a>
+<div class="container">
+  <div class="error-code">404</div>
+  <div class="error-title">Page Not Found</div>
+  <p class="error-desc">The page you're looking for doesn't exist or has been moved. Browse our collection of <strong>108 series reviews</strong> across <strong>8 categories</strong> instead.</p>
+  <div class="links-row">
+    <a href="/" class="btn-primary"><i class="fas fa-home"></i> Back to Home</a>
+    <a href="/contact.html" class="btn-secondary"><i class="fas fa-envelope"></i> Report Issue</a>
+  </div>
+  <div class="quick-links">
+    <a href="/privacy.html">Privacy</a>
+    <a href="/terms.html">Terms</a>
+    <a href="/about.html">About</a>
+    <a href="/contact.html">Contact</a>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; 2026 <a href="/">ICELABS</a> &mdash; Film, Video & Series Commentary. | <a href="privacy.html">Privacy</a> | <a href="terms.html">Terms</a> | <a href="about.html">About</a> | <a href="contact.html">Contact</a></p>
+</footer>
+
+<div class="cookie-notice" id="cookieNotice">
+  <p><i class="fas fa-cookie" style="color:#FFD700;margin-right:8px;"></i> We use cookies to improve your experience, analyze traffic, and personalize content and ads. By clicking "Accept", you consent to our use of cookies in accordance with our Privacy Policy.</p>
+  <div class="cookie-buttons">
+    <button class="cookie-btn accept" id="acceptCookies">ACCEPT ALL</button>
+    <button class="cookie-btn decline" id="declineCookies">DECLINE</button>
+  </div>
+</div>
+
+<script>
+  (function() {
+    var c = localStorage.getItem('icelabsCookieConsent');
+    if (c) { document.getElementById('cookieNotice').style.display = 'none'; }
+    document.getElementById('acceptCookies').addEventListener('click', function() {
+      localStorage.setItem('icelabsCookieConsent', 'accepted');
+      document.getElementById('cookieNotice').style.display = 'none';
+    });
+    document.getElementById('declineCookies').addEventListener('click', function() {
+      localStorage.setItem('icelabsCookieConsent', 'declined');
+      document.getElementById('cookieNotice').style.display = 'none';
+    });
+  })();
+</script>
 </body>
 </html>

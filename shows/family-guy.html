@@ -1,16 +1,16 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta name="description" content="ICELABS review of Family Guy - Peter Griffin and his dysfunctional family in Quahog, Rhode Island. Cutaway gags and pop culture references.">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
-  <link rel="canonical" href="https://icelabs.com/shows/family-guy.html">
+  <link rel="canonical" href="https://icelabs.site/shows/family-guy.html">
 
   <meta property="og:type" content="article">
   <meta property="og:title" content="Family Guy Review | ICELABS">
   <meta property="og:description" content="ICELABS review of Family Guy - Peter Griffin and his dysfunctional family in Quahog, Rhode Island. Cutaway gags and pop culture references.">
-  <meta property="og:url" content="https://icelabs.com/shows/family-guy.html">
+  <meta property="og:url" content="https://icelabs.site/shows/family-guy.html">
   <meta property="og:image" content="https://images.unsplash.com/photo-1616530940355-351fabd9524b?w=600&h=170&fit=crop">
   <meta property="og:site_name" content="ICELABS">
   <meta property="og:locale" content="en_US">
@@ -245,6 +245,9 @@
       .stars { font-size: 1.4rem; }
     }
   </style>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-084VS721FJ"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-084VS721FJ');</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2620433617157030" crossorigin="anonymous"></script>
 </head>
 <body>
 <div class="container">
@@ -260,7 +263,7 @@
   </div>
   <h1 class="show-title">Family Guy</h1>
   <div class="rating-line">
-    <span class="stars" aria-label="★★★★★">★★★★☆</span>
+    <span class="stars" aria-label="?????">?????</span>
     <span class="rating-number">8.1 / 10</span>
   </div>
   <article class="review-article">
@@ -293,11 +296,19 @@
     <a href="/about.html">About Us</a>
     <a href="/contact.html">Contact</a>
   </div>
-  <div class="footer-copy">&copy; 2025 ICELABS. All rights reserved.</div>
+  <div class="footer-copy">&copy; 2026 ICELABS. All rights reserved.</div>
 </footer>
 <div class="cookie-consent" id="cookieConsent">
-  <p>We use cookies to improve your experience. By using this site you agree to our <a href="/privacy.html">Privacy Policy</a>.</p>
-  <button class="cookie-btn" onclick="document.getElementById('cookieConsent').style.display='none';">Accept</button>
+  <p>We use cookies and similar technologies to improve your browsing experience, analyze site traffic, and personalize content and ads. By clicking "Accept", you consent to our use of cookies in accordance with our <a href="/privacy.html">Privacy Policy</a>.</p>
+  <div style="display:flex;gap:10px;flex-wrap:wrap;">
+    <button class="cookie-btn" onclick="acceptCookies()">Accept</button>
+    <button class="cookie-btn" style="background:transparent;border:1px solid #555;color:#aaa;" onclick="declineCookies()">Decline</button>
+  </div>
 </div>
+<script>
+(function(){var c=localStorage.getItem('icelabsCookieConsent');if(c){document.getElementById('cookieConsent').style.display='none';}})();
+function acceptCookies(){localStorage.setItem('icelabsCookieConsent','accepted');document.getElementById('cookieConsent').style.display='none';if(typeof gtag==='function'){gtag('consent','update',{analytics_storage:'granted',ad_storage:'granted'});}}
+function declineCookies(){localStorage.setItem('icelabsCookieConsent','declined');document.getElementById('cookieConsent').style.display='none';}
+</script>
 </body>
 </html>

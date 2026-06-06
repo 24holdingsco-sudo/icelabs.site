@@ -2,54 +2,123 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About ICELABS - The Definitive Film, Video & Series Commentary</title>
-  <meta name="description" content="ICELABS delivers raw, unfiltered commentary on the best medical dramas and crime thrillers. Human critique, cinematic banners, honest ratings.">
-  <meta name="robots" content="index, follow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>About ICELABS - The Definitive TV Series & Film Commentary Platform</title>
+  <meta name="description" content="ICELABS delivers raw, unfiltered commentary across 8 categories: Medical Dramas, Crime Thrillers, Sci-Fi, Anime, True Crime, Horror, Documentaries & War. Honest ratings since 2026.">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
   <link rel="canonical" href="https://icelabs.site/about.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="About ICELABS - TV Series & Film Commentary Platform">
+  <meta property="og:description" content="Raw, unfiltered commentary on 100+ series across 8 categories. Medical, crime, sci-fi, anime, true crime, horror, documentaries & war.">
+  <meta property="og:url" content="https://icelabs.site/about.html">
+  <meta property="og:site_name" content="ICELABS">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="About ICELABS - TV Series & Film Commentary">
+  <meta name="twitter:description" content="Honest commentary on 100+ series across 8 categories.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <style>
     * { margin:0; padding:0; box-sizing:border-box; }
     body { background:#000; color:#fff; font-family:'Inter',sans-serif; line-height:1.7; }
-    .container { max-width:800px; margin:0 auto; padding:2rem; }
-    h1 { font-family:'Space Grotesk',monospace; color:#FFD700; font-size:2.5rem; margin-bottom:0.5rem; }
-    h2 { color:#FFD700; font-size:1.3rem; margin:2rem 0 1rem; }
+    .container { max-width:900px; margin:0 auto; padding:2rem; }
+    h1 { font-family:'Space Grotesk',monospace; color:#FFD700; font-size:2.8rem; text-align:center; margin-bottom:0.5rem; }
+    h2 { color:#FFD700; font-size:1.3rem; margin:2rem 0 1rem; border-bottom:1px solid #333; padding-bottom:0.5rem; }
+    h3 { color:#eef2ff; font-size:1rem; margin:1rem 0 0.5rem; }
     p { color:#ccc; margin-bottom:1rem; }
     a { color:#FFD700; }
     .back { display:inline-block; background:#FFD700; color:#000; padding:0.6rem 1.5rem; border-radius:40px; text-decoration:none; font-weight:700; margin:1rem 0; font-size:0.9rem; }
     .back:hover { background:#fff; }
-    .highlight { background:#111; border-left:3px solid #FFD700; padding:1.5rem; border-radius:0 12px 12px 0; margin:1.5rem 0; }
+    .highlight { background:#111; border-left:3px solid #FFD700; padding:1.5rem 2rem; border-radius:0 12px 12px 0; margin:1.5rem 0; }
+    .highlight i { color:#FFD700; }
+    .cat-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:12px; margin:1.5rem 0; }
+    .cat-item { background:#111; border:1px solid #2a2a2a; border-radius:16px; padding:1.2rem; text-align:center; transition:0.2s; }
+    .cat-item:hover { border-color:#FFD700; }
+    .cat-item i { font-size:1.5rem; color:#FFD700; margin-bottom:8px; }
+    .cat-item h4 { color:#fff; font-size:0.9rem; }
+    .cat-item p { font-size:0.8rem; color:#888; margin:0; }
+    .stats-row { display:flex; justify-content:center; gap:2rem; flex-wrap:wrap; margin:2rem 0; }
+    .stat { text-align:center; }
+    .stat-num { font-size:2rem; font-weight:800; color:#FFD700; font-family:'Space Grotesk',monospace; }
+    .stat-label { font-size:0.8rem; color:#888; text-transform:uppercase; letter-spacing:1px; }
     footer { text-align:center; padding:2rem; border-top:1px solid #222; color:#666; font-size:0.85rem; margin-top:3rem; }
     footer a { color:#FFD700; text-decoration:none; }
-    @media (max-width:600px) { h1 { font-size:1.8rem; } .container { padding:1.5rem; } }
+    .cookie-notice { position:fixed; bottom:20px; left:20px; max-width:400px; background:rgba(10,10,10,0.97); backdrop-filter:blur(12px); border:1px solid rgba(255,215,0,0.4); border-radius:20px; padding:20px; z-index:1000; box-shadow:0 10px 40px rgba(0,0,0,0.5); }
+    .cookie-notice p { font-size:0.85rem; margin-bottom:15px; color:#ccc; }
+    .cookie-buttons { display:flex; gap:10px; }
+    .cookie-btn { padding:10px 20px; border-radius:30px; font-weight:600; font-size:0.8rem; cursor:pointer; border:none; transition:0.2s; }
+    .cookie-btn.accept { background:#FFD700; color:#000; flex:1; }
+    .cookie-btn.accept:hover { background:#fff; }
+    .cookie-btn.decline { background:transparent; border:1px solid rgba(255,215,0,0.4); color:#aaa; }
+    .cookie-btn.decline:hover { border-color:#fff; color:#fff; }
+    @media (max-width:600px) { h1 { font-size:2rem; } .container { padding:1.5rem; } .cookie-notice { left:10px; right:10px; max-width:none; } }
   </style>
 </head>
 <body>
 <div class="container">
   <a href="/" class="back"><i class="fas fa-arrow-left"></i> Back to ICELABS</a>
-  <h1>About ICELABS</h1>
-  <p><strong>Film. Video. Series. Unfiltered.</strong></p>
+  <h1><i class="fas fa-info-circle" style="margin-right:12px;color:#FFD700;"></i>About ICELABS</h1>
+  <p style="text-align:center;color:#aaa;font-size:1.1rem;"><strong>Film. Video. Series. Unfiltered.</strong></p>
 
   <div class="highlight">
-    <i class="fas fa-quote-left" style="color:#FFD700;margin-right:8px;"></i> ICELABS is built for those who want more than plot summaries. We deliver high-contrast cinema DNA &mdash; raw human commentary, tension metrics, script density analysis, and rewatch factors. No fluff, no spoilers. Just the truth about what makes a series worth your time.
+    <i class="fas fa-quote-left"></i> ICELABS is built for those who want more than plot summaries. We deliver high-contrast cinema DNA &mdash; raw human commentary, tension metrics, script density analysis, and rewatch factors. No fluff, no spoilers. Just the truth about what makes a series worth your time.
   </div>
 
-  <h2>Our Mission</h2>
-  <p>To provide the most honest, insightful, and entertaining film and series commentary on the web. We cover medical dramas and crime thrillers with the depth they deserve &mdash; because these genres reveal the most about human nature.</p>
+  <h2><i class="fas fa-bullseye"></i> Our Mission</h2>
+  <p>To provide the most honest, insightful, and entertaining film and series commentary on the web. We cover <strong>8 categories</strong> with the depth they deserve &mdash; because great storytelling transcends genre.</p>
 
-  <h2>What Makes Us Different</h2>
-  <p>Every review on ICELABS is written by passionate viewers who have watched every episode. Our ratings balance tension metrics, script density, character development, and rewatch factor &mdash; not just popularity.</p>
+  <div class="stats-row">
+    <div class="stat"><div class="stat-num">108</div><div class="stat-label">Series Reviewed</div></div>
+    <div class="stat"><div class="stat-num">8</div><div class="stat-label">Categories</div></div>
+    <div class="stat"><div class="stat-num">100%</div><div class="stat-label">Human Written</div></div>
+  </div>
 
-  <h2>Our Categories</h2>
-  <p><strong>Medical & Practice:</strong> From the halls of Grey Sloan Memorial to the battlefields of M*A*S*H, we cover the medical dramas that define television.</p>
-  <p><strong>Drama Thrillers & Crime & Grit:</strong> From the meth labs of Breaking Bad to the boxing rings of Animal Kingdom, we dive into the darkness.</p>
+  <h2><i class="fas fa-th-large"></i> Our Categories</h2>
+  <div class="cat-grid">
+    <div class="cat-item"><i class="fas fa-heartbeat"></i><h4>Medical & Practice</h4><p>15 reviews</p></div>
+    <div class="cat-item"><i class="fas fa-gavel"></i><h4>Crime & Thrillers</h4><p>15 reviews</p></div>
+    <div class="cat-item"><i class="fas fa-rocket"></i><h4>Sci-Fi & Fantasy</h4><p>15 reviews</p></div>
+    <div class="cat-item"><i class="fas fa-dragon"></i><h4>Anime & Animation</h4><p>12 reviews</p></div>
+    <div class="cat-item"><i class="fas fa-skull"></i><h4>True Crime</h4><p>10 reviews</p></div>
+    <div class="cat-item"><i class="fas fa-ghost"></i><h4>Horror & Supernatural</h4><p>10 reviews</p></div>
+    <div class="cat-item"><i class="fas fa-globe"></i><h4>Documentaries</h4><p>10 reviews</p></div>
+    <div class="cat-item"><i class="fas fa-shield-halved"></i><h4>War & Military</h4><p>8 reviews</p></div>
+  </div>
 
-  <h2>Contact</h2>
-  <p>Have a suggestion or want to contribute? Reach out at <a href="mailto:contact@icelabs.site">contact@icelabs.site</a>.</p>
+  <h2><i class="fas fa-star"></i> What Makes Us Different</h2>
+  <p>Every review on ICELABS is written by passionate viewers who have watched every episode. Our ratings balance tension metrics, script density, character development, and rewatch factor &mdash; not just popularity. We cover mainstream hits and hidden gems alike.</p>
+
+  <h2><i class="fas fa-envelope"></i> Contact</h2>
+  <p>Have a suggestion or want to contribute? Reach out at <a href="contact.html">our contact page</a> or email <a href="mailto:contact@icelabs.site">contact@icelabs.site</a>.</p>
 </div>
+
 <footer>
-  <p>&copy; 2026 <a href="/">ICELABS</a> &mdash; Film, Video & Series Commentary. | <a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms</a> | <a href="about.html">About</a> | <a href="contact.html">Contact</a></p>
+  <p>&copy; 2026 <a href="/">ICELABS</a> &mdash; Film, Video & Series Commentary. | <a href="privacy.html">Privacy</a> | <a href="terms.html">Terms</a> | <a href="about.html">About</a> | <a href="contact.html">Contact</a></p>
 </footer>
+
+<div class="cookie-notice" id="cookieNotice">
+  <p><i class="fas fa-cookie" style="color:#FFD700;margin-right:8px;"></i> We use cookies to improve your experience, analyze traffic, and personalize content and ads. By clicking "Accept", you consent to our use of cookies in accordance with our Privacy Policy.</p>
+  <div class="cookie-buttons">
+    <button class="cookie-btn accept" id="acceptCookies">ACCEPT ALL</button>
+    <button class="cookie-btn decline" id="declineCookies">DECLINE</button>
+  </div>
+</div>
+
+<script>
+  (function() {
+    var c = localStorage.getItem('icelabsCookieConsent');
+    if (c) { document.getElementById('cookieNotice').style.display = 'none'; }
+    document.getElementById('acceptCookies').addEventListener('click', function() {
+      localStorage.setItem('icelabsCookieConsent', 'accepted');
+      document.getElementById('cookieNotice').style.display = 'none';
+    });
+    document.getElementById('declineCookies').addEventListener('click', function() {
+      localStorage.setItem('icelabsCookieConsent', 'declined');
+      document.getElementById('cookieNotice').style.display = 'none';
+    });
+  })();
+</script>
 </body>
 </html>

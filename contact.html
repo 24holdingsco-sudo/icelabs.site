@@ -2,46 +2,157 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact ICELABS - Film & Series Commentary</title>
-  <meta name="description" content="Contact ICELABS. Get in touch with questions, suggestions, or collaboration opportunities.">
-  <meta name="robots" content="index, follow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Contact Us | ICELABS - Film & Series Commentary</title>
+  <meta name="description" content="Get in touch with ICELABS. Submit a suggestion for a series review, collaboration inquiry, or advertising question. We respond within 48 hours.">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
   <link rel="canonical" href="https://icelabs.site/contact.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Contact ICELABS | TV Series Review Platform">
+  <meta property="og:description" content="Have a series suggestion or collaboration idea? Contact ICELABS - the definitive film and series commentary platform.">
+  <meta property="og:url" content="https://icelabs.site/contact.html">
+  <meta property="og:site_name" content="ICELABS">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Contact ICELABS | TV Series Review Platform">
+  <meta name="twitter:description" content="Get in touch with ICELABS for series suggestions or collaborations.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <style>
     * { margin:0; padding:0; box-sizing:border-box; }
     body { background:#000; color:#fff; font-family:'Inter',sans-serif; line-height:1.7; }
     .container { max-width:800px; margin:0 auto; padding:2rem; }
-    h1 { font-family:'Space Grotesk',monospace; color:#FFD700; font-size:2.5rem; margin-bottom:0.5rem; }
+    h1 { font-family:'Space Grotesk',monospace; color:#FFD700; font-size:2.5rem; margin-bottom:0.5rem; text-align:center; }
+    h2 { color:#FFD700; font-size:1.3rem; margin:2rem 0 1rem; }
     p { color:#ccc; margin-bottom:1rem; }
     a { color:#FFD700; }
     .back { display:inline-block; background:#FFD700; color:#000; padding:0.6rem 1.5rem; border-radius:40px; text-decoration:none; font-weight:700; margin:1rem 0; font-size:0.9rem; }
     .back:hover { background:#fff; }
-    .contact-card { background:#111; border:1px solid #333; border-radius:20px; padding:2rem; margin:2rem 0; }
+    .contact-card { background:#0a0a0a; border:1px solid #2a2a2a; border-radius:28px; padding:2.5rem; margin:2rem 0; }
     .contact-card i { color:#FFD700; width:24px; margin-right:10px; }
-    .contact-card p { margin-bottom:0.8rem; }
+    .form-group { margin-bottom:1.5rem; }
+    .form-group label { display:block; color:#ddd; font-weight:600; font-size:0.9rem; margin-bottom:0.5rem; }
+    .form-group input, .form-group select, .form-group textarea { width:100%; padding:1rem; background:#111; border:1px solid #333; border-radius:12px; color:#fff; font-family:'Inter',sans-serif; font-size:1rem; transition:border 0.2s; }
+    .form-group input:focus, .form-group select:focus, .form-group textarea:focus { outline:none; border-color:#FFD700; }
+    .form-group textarea { resize:vertical; min-height:140px; }
+    .form-group select option { background:#111; color:#fff; }
+    .submit-btn { background:#FFD700; color:#000; border:none; padding:1rem 2.5rem; border-radius:40px; font-weight:700; font-size:1rem; cursor:pointer; transition:0.2s; width:100%; }
+    .submit-btn:hover { background:#fff; }
+    .submit-btn:disabled { opacity:0.5; cursor:not-allowed; }
+    .msg-success { background:rgba(16,185,129,0.1); border:1px solid rgba(16,185,129,0.3); color:#10b981; padding:1rem; border-radius:12px; text-align:center; display:none; margin-top:1rem; }
+    .msg-error { background:rgba(239,68,68,0.1); border:1px solid rgba(239,68,68,0.3); color:#ef4444; padding:1rem; border-radius:12px; text-align:center; display:none; margin-top:1rem; }
+    .alt-contact { text-align:center; margin-top:2rem; padding-top:2rem; border-top:1px solid #222; }
+    .alt-contact p { font-size:0.9rem; color:#888; }
     footer { text-align:center; padding:2rem; border-top:1px solid #222; color:#666; font-size:0.85rem; margin-top:3rem; }
     footer a { color:#FFD700; text-decoration:none; }
-    @media (max-width:600px) { h1 { font-size:1.8rem; } .container { padding:1.5rem; } }
+    .cookie-notice { position:fixed; bottom:20px; left:20px; max-width:400px; background:rgba(10,10,10,0.97); backdrop-filter:blur(12px); border:1px solid rgba(255,215,0,0.4); border-radius:20px; padding:20px; z-index:1000; box-shadow:0 10px 40px rgba(0,0,0,0.5); }
+    .cookie-notice p { font-size:0.85rem; margin-bottom:15px; color:#ccc; }
+    .cookie-buttons { display:flex; gap:10px; }
+    .cookie-btn { padding:10px 20px; border-radius:30px; font-weight:600; font-size:0.8rem; cursor:pointer; border:none; transition:0.2s; }
+    .cookie-btn.accept { background:#FFD700; color:#000; flex:1; }
+    .cookie-btn.accept:hover { background:#fff; }
+    .cookie-btn.decline { background:transparent; border:1px solid rgba(255,215,0,0.4); color:#aaa; }
+    .cookie-btn.decline:hover { border-color:#fff; color:#fff; }
+    @media (max-width:600px) { h1 { font-size:1.8rem; } .container { padding:1.5rem; } .contact-card { padding:1.5rem; } .cookie-notice { left:10px; right:10px; max-width:none; } }
   </style>
 </head>
 <body>
 <div class="container">
   <a href="/" class="back"><i class="fas fa-arrow-left"></i> Back to ICELABS</a>
-  <h1>Contact Us</h1>
-  <p>Have a suggestion for a series we should review? Want to collaborate? We'd love to hear from you.</p>
+  <h1><i class="fas fa-envelope" style="margin-right:12px;color:#FFD700;"></i>Contact Us</h1>
+  <p style="text-align:center;max-width:600px;margin:0 auto 1.5rem;">Have a suggestion for a series we should review? Want to collaborate or advertise? Fill out the form below and we'll get back to you within 48 hours.</p>
 
   <div class="contact-card">
-    <p><i class="fas fa-envelope"></i> <strong>Email:</strong> <a href="mailto:contact@icelabs.site">contact@icelabs.site</a></p>
-    <p><i class="fas fa-shield-alt"></i> <strong>Privacy:</strong> <a href="privacy.html">Privacy Policy</a></p>
-    <p><i class="fas fa-file-contract"></i> <strong>Terms:</strong> <a href="terms.html">Terms of Service</a></p>
+    <form id="contactForm">
+      <div class="form-group">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" placeholder="e.g. John Doe" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" placeholder="e.g. john@example.com" required>
+      </div>
+      <div class="form-group">
+        <label for="subject">Subject</label>
+        <select id="subject" name="subject" required>
+          <option value="">Select a topic...</option>
+          <option value="Series Suggestion">Series Suggestion</option>
+          <option value="Collaboration">Collaboration</option>
+          <option value="Advertising">Advertising / AdSense Inquiry</option>
+          <option value="Correction">Content Correction</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" placeholder="Tell us about your suggestion, question, or inquiry..." required></textarea>
+      </div>
+      <button type="submit" class="submit-btn" id="submitBtn"><i class="fas fa-paper-plane"></i> Send Message</button>
+      <div class="msg-success" id="msgSuccess"><i class="fas fa-check-circle"></i> Thank you! Your message has been sent successfully. We'll respond within 48 hours.</div>
+      <div class="msg-error" id="msgError"><i class="fas fa-exclamation-circle"></i> There was an error sending your message. Please try again or email us directly.</div>
+    </form>
   </div>
 
-  <p>We aim to respond within 48 hours. For advertising inquiries, please include "Ad" in your subject line.</p>
+  <div class="alt-contact">
+    <p><i class="fas fa-envelope"></i> Prefer email? Write to <a href="mailto:contact@icelabs.site">contact@icelabs.site</a></p>
+    <p style="margin-top:0.5rem;"><i class="fas fa-shield-alt"></i> Read our <a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a></p>
+  </div>
 </div>
+
 <footer>
   <p>&copy; 2026 <a href="/">ICELABS</a> &mdash; Film, Video & Series Commentary. | <a href="privacy.html">Privacy</a> | <a href="terms.html">Terms</a> | <a href="about.html">About</a> | <a href="contact.html">Contact</a></p>
 </footer>
+
+<div class="cookie-notice" id="cookieNotice">
+  <p><i class="fas fa-cookie" style="color:#FFD700;margin-right:8px;"></i> We use cookies to improve your experience, analyze traffic, and personalize content and ads. By clicking "Accept", you consent to our use of cookies in accordance with our Privacy Policy.</p>
+  <div class="cookie-buttons">
+    <button class="cookie-btn accept" id="acceptCookies">ACCEPT ALL</button>
+    <button class="cookie-btn decline" id="declineCookies">DECLINE</button>
+  </div>
+</div>
+
+<script>
+  (function() {
+    var c = localStorage.getItem('icelabsCookieConsent');
+    if (c) { document.getElementById('cookieNotice').style.display = 'none'; }
+    document.getElementById('acceptCookies').addEventListener('click', function() {
+      localStorage.setItem('icelabsCookieConsent', 'accepted');
+      document.getElementById('cookieNotice').style.display = 'none';
+    });
+    document.getElementById('declineCookies').addEventListener('click', function() {
+      localStorage.setItem('icelabsCookieConsent', 'declined');
+      document.getElementById('cookieNotice').style.display = 'none';
+    });
+  })();
+
+  document.getElementById('contactForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    var btn = document.getElementById('submitBtn');
+    btn.disabled = true;
+    btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
+    var formData = new FormData(this);
+    // Replace YOUR_FORMSPREE_ID with your actual Formspree form ID
+    fetch('https://formspree.io/f/YOUR_FORMSPREE_ID', {
+      method: 'POST',
+      body: formData,
+      headers: { 'Accept': 'application/json' }
+    }).then(function(r) {
+      if (r.ok) {
+        document.getElementById('msgSuccess').style.display = 'block';
+        document.getElementById('contactForm').reset();
+      } else {
+        document.getElementById('msgError').style.display = 'block';
+      }
+      btn.disabled = false;
+      btn.innerHTML = '<i class="fas fa-paper-plane"></i> Send Message';
+    }).catch(function() {
+      document.getElementById('msgError').style.display = 'block';
+      btn.disabled = false;
+      btn.innerHTML = '<i class="fas fa-paper-plane"></i> Send Message';
+    });
+  });
+</script>
 </body>
 </html>

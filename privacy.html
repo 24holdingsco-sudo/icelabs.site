@@ -42,7 +42,8 @@
     .cookie-btn { padding:10px 20px; border-radius:30px; font-weight:600; font-size:0.8rem; cursor:pointer; border:none; transition:0.2s; }
     .cookie-btn.accept { background:#FFD700; color:#000; flex:1; }
     .cookie-btn.accept:hover { background:#fff; }
-    .cookie-btn.settings { background:transparent; border:1px solid rgba(255,215,0,0.4); color:#FFD700; }
+    .cookie-btn.decline { background:transparent; border:1px solid rgba(255,215,0,0.4); color:#aaa; }
+    .cookie-btn.decline:hover { border-color:#fff; color:#fff; }
     footer { text-align:center; padding:2rem; border-top:1px solid #222; color:#666; font-size:0.85rem; }
     footer a { color:#FFD700; text-decoration:none; }
     @media (max-width:600px) { .policy-card { padding:20px; } h1 { font-size:1.8rem; } .cookie-notice { left:10px; right:10px; max-width:none; } }
@@ -139,27 +140,24 @@
 </footer>
 
 <div class="cookie-notice" id="cookieNotice">
-  <p><i class="fas fa-cookie" style="color:#FFD700;margin-right:8px;"></i> We use cookies to improve your experience. By clicking "Accept", you consent to our use of cookies in accordance with our Privacy Policy.</p>
+  <p><i class="fas fa-cookie" style="color:#FFD700;margin-right:8px;"></i> We use cookies to improve your experience, analyze traffic, and personalize content and ads. By clicking "Accept", you consent to our use of cookies in accordance with our Privacy Policy.</p>
   <div class="cookie-buttons">
     <button class="cookie-btn accept" id="acceptCookies">ACCEPT ALL</button>
-    <button class="cookie-btn settings" id="cookieSettings">SETTINGS</button>
+    <button class="cookie-btn decline" id="declineCookies">DECLINE</button>
   </div>
 </div>
 
 <script>
   (function() {
-    const cookieNotice = document.getElementById('cookieNotice');
-    const acceptBtn = document.getElementById('acceptCookies');
-    const settingsBtn = document.getElementById('cookieSettings');
-    if (localStorage.getItem('icelabsCookieConsent')) {
-      cookieNotice.style.display = 'none';
-    }
-    acceptBtn.addEventListener('click', function() {
+    var c = localStorage.getItem('icelabsCookieConsent');
+    if (c) { document.getElementById('cookieNotice').style.display = 'none'; }
+    document.getElementById('acceptCookies').addEventListener('click', function() {
       localStorage.setItem('icelabsCookieConsent', 'accepted');
-      cookieNotice.style.display = 'none';
+      document.getElementById('cookieNotice').style.display = 'none';
     });
-    settingsBtn.addEventListener('click', function() {
-      alert('Cookie Settings: Essential cookies always enabled. Analytics and advertising cookies require consent.');
+    document.getElementById('declineCookies').addEventListener('click', function() {
+      localStorage.setItem('icelabsCookieConsent', 'declined');
+      document.getElementById('cookieNotice').style.display = 'none';
     });
   })();
 </script>

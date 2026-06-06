@@ -97,7 +97,8 @@
     .cookie-btn{padding:8px 16px;border-radius:30px;font-weight:600;font-size:0.75rem;cursor:pointer;border:none;transition:0.2s;}
     .cookie-btn.accept{background:var(--yellow);color:#000;flex:1;}
     .cookie-btn.accept:hover{background:#fff;}
-    .cookie-btn.settings{background:transparent;border:1px solid rgba(255,215,0,0.4);color:var(--yellow);}
+    .cookie-btn.decline{background:transparent;border:1px solid rgba(255,215,0,0.4);color:#aaa;}
+.cookie-btn.decline:hover{border-color:#fff;color:#fff;}
     @media(max-width:700px){
       .container{padding:1rem;}
       .hero h1{font-size:2rem;}
@@ -450,10 +451,10 @@
 </div>
 
 <div class="cookie-notice" id="cookieNotice">
-  <p><i class="fas fa-cookie" style="color:#FFD700;margin-right:6px;"></i> ICELABS uses cookies to improve your experience and show personalized ads. By clicking "Accept", you consent in accordance with our <a href="privacy.html">Privacy Policy</a>.</p>
-  <div class="cookie-buttons">
-    <button class="cookie-btn accept" id="acceptCookies">ACCEPT ALL</button>
-    <button class="cookie-btn settings" id="cookieSettings">COOKIE SETTINGS</button>
+<p><i class="fas fa-cookie" style="color:#FFD700;margin-right:6px;"></i> We use cookies to improve your experience, analyze traffic, and personalize content and ads. By clicking "Accept", you consent in accordance with our <a href="privacy.html">Privacy Policy</a>.</p>
+<div class="cookie-buttons">
+<button class="cookie-btn accept" id="acceptCookies">ACCEPT ALL</button>
+<button class="cookie-btn decline" id="declineCookies">DECLINE</button>
   </div>
 </div>
 
@@ -480,8 +481,8 @@
     localStorage.setItem('icelabsCookieConsent','accepted');cn.style.display='none';
     if(typeof gtag==='function'){gtag('consent','update',{analytics_storage:'granted',ad_storage:'granted'});}
   });
-  document.getElementById('cookieSettings').addEventListener('click',function(){
-    alert('Cookie preferences: Essential cookies always enabled. Analytics and advertising cookies require consent.');
+  document.getElementById('declineCookies').addEventListener('click',function(){
+    localStorage.setItem('icelabsCookieConsent','declined');cn.style.display='none';
   });
 })();
 </script>
