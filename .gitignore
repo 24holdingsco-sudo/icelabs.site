@@ -18,4 +18,8 @@ Desktop.ini
 # Logs
 *.log
 
+# Node
+node_modules/
+npm-debug.log*
+
 # No need to ignore anything else - site is fully static
