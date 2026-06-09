@@ -99,6 +99,22 @@
     .cookie-btn.accept:hover{background:#fff;}
     .cookie-btn.decline{background:transparent;border:1px solid rgba(255,215,0,0.4);color:#aaa;}
 .cookie-btn.decline:hover{border-color:#fff;color:#fff;}
+    .editor-picks{margin:2rem 0;padding:2rem;background:linear-gradient(135deg,#0a0a0a,#111);border:1px solid #2a2a2a;border-radius:24px;}
+    .picks-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.5rem;margin-top:1rem;}
+    .pick-card{background:#050505;border-radius:16px;padding:1.5rem;border:1px solid #2c2c2c;position:relative;transition:0.3s;}
+    .pick-card:hover{border-color:var(--yellow);transform:translateY(-2px);}
+    .pick-badge{position:absolute;top:-10px;left:16px;background:var(--yellow);color:#000;font-size:0.7rem;font-weight:800;padding:0.15rem 0.8rem;border-radius:40px;letter-spacing:0.5px;}
+    .pick-content h3{font-family:'Space Grotesk',monospace;font-size:1.3rem;font-weight:700;color:#fff;margin:0.3rem 0 0.6rem;}
+    .pick-content p{font-size:0.85rem;color:#aaa;line-height:1.5;margin-bottom:0.8rem;}
+    .pick-link{color:var(--yellow);text-decoration:none;font-size:0.8rem;font-weight:600;}
+    .pick-link:hover{color:#fff;}
+    .why-icelabs{margin:2rem 0;padding:2rem;background:#0a0a0a;border:1px solid #2a2a2a;border-radius:24px;text-align:center;}
+    .why-icelabs h2{font-family:'Space Grotesk',monospace;font-size:1.6rem;font-weight:700;color:var(--yellow);margin-bottom:1rem;}
+    .why-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1.5rem;margin:1.5rem 0;}
+    .why-item{background:#050505;border-radius:16px;padding:1.5rem;border:1px solid #222;}
+    .why-item i{font-size:1.8rem;color:var(--yellow);margin-bottom:0.5rem;}
+    .why-item h4{font-size:1rem;font-weight:700;color:#fff;margin-bottom:0.4rem;}
+    .why-item p{font-size:0.8rem;color:#999;}
     @media(max-width:700px){
       .container{padding:1rem;}
       .hero h1{font-size:2rem;}
@@ -141,6 +157,36 @@
     <span class="badge"><i class="fas fa-shield-halved"></i> War</span>
   </div>
 </header>
+
+<section class="editor-picks">
+  <h2 class="section-title"><i class="fas fa-star"></i> Editor's Picks</h2>
+  <div class="picks-grid">
+    <div class="pick-card">
+      <span class="pick-badge">#1 Pick</span>
+      <div class="pick-content">
+        <h3>Breaking Bad</h3>
+        <p>Walter White's transformation from chemistry teacher to drug lord is the greatest character arc in television history. The moral decay unfolds with surgical precision across five perfect seasons.</p>
+        <a href="shows/breaking-bad.html" class="pick-link">Read Review <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+    <div class="pick-card">
+      <span class="pick-badge">#2 Pick</span>
+      <div class="pick-content">
+        <h3>Severance</h3>
+        <p>The most inventive and unsettling show on television. A workplace thriller where memories are surgically divided — you'll never look at office culture the same way.</p>
+        <a href="shows/severance.html" class="pick-link">Read Review <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+    <div class="pick-card">
+      <span class="pick-badge">#3 Pick</span>
+      <div class="pick-content">
+        <h3>Avatar: The Last Airbender</h3>
+        <p>A masterclass in storytelling that transcends animation. Zuko's redemption arc, the elemental bending, and themes of balance and growth make this essential viewing for all ages.</p>
+        <a href="shows/avatar-last-airbender.html" class="pick-link">Read Review <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
 
 <nav class="tabs-nav" role="tablist">
   <button class="tab-btn active" role="tab" aria-selected="true" data-tab="medical"><i class="fas fa-stethoscope"></i> Medical</button>
@@ -193,8 +239,6 @@
   <article class="series-card"><a href="shows/surgeons-cut.html" class="img-banner" style="background-image:url('images/The Surgeon\'s cut.jpg')" aria-label="Surgeon's Cut"></a><div class="card-header"><span class="rank">#15</span><h3>Surgeon&rsquo;s Cut</h3><span class="genre-tag">medical drama</span></div><div class="commentary"><i class="fas fa-quote-left" style="margin-right:5px;opacity:0.8;"></i> Real miracles in the OR. Quiet tension, steady hands, profound humanity.</div><div class="rating-area"><div class="stars">★★★★☆</div><div class="score">8.3 / 10</div></div><div class="card-footer-link"><a href="shows/surgeons-cut.html">Read <i class="fas fa-arrow-right"></i></a></div></article>
 
 </div>
-
-<div class="ad-banner" style="margin-top:2rem;"><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2620433617157030" data-ad-slot="1234567891" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({});</script></div>
 
 <!-- ==================== CRIME / DRAMA ==================== -->
 <h2 class="section-title"><i class="fas fa-skull"></i> Drama Thrillers &amp; Crime Grit</h2>
@@ -259,8 +303,6 @@
 
 </div>
 
-<div class="ad-banner" style="margin-top:2rem;"><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2620433617157030" data-ad-slot="1234567891" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({});</script></div>
-
 <!-- ==================== SCI-FI & FANTASY ==================== -->
 <h2 class="section-title"><i class="fas fa-robot"></i> Sci-Fi &amp; Fantasy Series</h2>
 <div id="scifiContainer" class="series-grid" role="tabpanel" style="display:none;">
@@ -297,8 +339,6 @@
 
 </div>
 
-<div class="ad-banner" style="margin-top:2rem;"><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2620433617157030" data-ad-slot="1234567892" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({});</script></div>
-
 <!-- ==================== ANIME & ANIMATION ==================== -->
 <h2 class="section-title"><i class="fas fa-dragon"></i> Animated Series &amp; Anime</h2>
 <div id="animeContainer" class="series-grid" role="tabpanel" style="display:none;">
@@ -329,8 +369,6 @@
 
 </div>
 
-<div class="ad-banner" style="margin-top:2rem;"><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2620433617157030" data-ad-slot="1234567893" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({});</script></div>
-
 <!-- ==================== TRUE CRIME ==================== -->
 <h2 class="section-title"><i class="fas fa-search"></i> True Crime Documentaries</h2>
 <div id="truecrimeContainer" class="series-grid" role="tabpanel" style="display:none;">
@@ -356,8 +394,6 @@
   <article class="series-card"><a href="shows/confession-tapes.html" class="img-banner" style="background-image:url('https://images.unsplash.com/photo-1534447677768-be436bb09401?w=600&h=170&fit=crop')" aria-label="The Confession Tapes"></a><div class="card-header"><span class="rank">#10</span><h3>The Confession Tapes</h3><span class="genre-tag">true crime</span></div><div class="commentary">People confess to murders they may not have committed. Every episode questions the justice system.</div><div class="rating-area"><div class="stars">★★★★☆</div><div class="score">7.5 / 10</div></div><div class="card-footer-link"><a href="shows/confession-tapes.html">Read <i class="fas fa-arrow-right"></i></a></div></article>
 
 </div>
-
-<div class="ad-banner" style="margin-top:2rem;"><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2620433617157030" data-ad-slot="1234567894" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({});</script></div>
 
 <!-- ==================== HORROR ==================== -->
 <h2 class="section-title"><i class="fas fa-ghost"></i> Horror &amp; Supernatural</h2>
@@ -385,8 +421,6 @@
 
 </div>
 
-<div class="ad-banner" style="margin-top:2rem;"><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2620433617157030" data-ad-slot="1234567895" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({});</script></div>
-
 <!-- ==================== DOCUMENTARIES ==================== -->
 <h2 class="section-title"><i class="fas fa-film"></i> Documentary Series</h2>
 <div id="docsContainer" class="series-grid" role="tabpanel" style="display:none;">
@@ -413,8 +447,6 @@
 
 </div>
 
-<div class="ad-banner" style="margin-top:2rem;"><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2620433617157030" data-ad-slot="1234567896" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({});</script></div>
-
 <!-- ==================== WAR & MILITARY ==================== -->
 <h2 class="section-title"><i class="fas fa-shield-halved"></i> War &amp; Military</h2>
 <div id="warContainer" class="series-grid" role="tabpanel" style="display:none;">
@@ -436,6 +468,35 @@
   <article class="series-card"><a href="shows/all-quiet-western-front.html" class="img-banner" style="background-image:url('https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=600&h=170&fit=crop')" aria-label="All Quiet"></a><div class="card-header"><span class="rank">#8</span><h3>All Quiet on the Western Front</h3><span class="genre-tag">war</span></div><div class="commentary">The German perspective of WWI. The final 20 minutes are an anti-war statement so powerful you&rsquo;ll sit in silence.</div><div class="rating-area"><div class="stars">★★★★☆</div><div class="score">8.2 / 10</div></div><div class="card-footer-link"><a href="shows/all-quiet-western-front.html">Read <i class="fas fa-arrow-right"></i></a></div></article>
 
 </div>
+
+<section class="why-icelabs">
+  <h2><i class="fas fa-bolt"></i> Why ICELABS?</h2>
+  <p style="color:#aaa;max-width:700px;margin:0 auto;font-size:0.9rem;">We watch so you don't have to waste time on mediocre television. Our critics break down the script density, tension curves, performance heat, and cultural footprint of every series we cover. No filler, no sponsored hype — just honest human critique.</p>
+  <div class="why-grid">
+    <div class="why-item">
+      <i class="fas fa-brain"></i>
+      <h4>Script Density Analysis</h4>
+      <p>We measure how much story is packed into every minute. A tight script is the difference between binge-worthy and background noise.</p>
+    </div>
+    <div class="why-item">
+      <i class="fas fa-chart-line"></i>
+      <h4>Tension Metrics</h4>
+      <p>We track pacing, stakes escalation, and emotional payload. Great TV makes your palms sweat — we tell you which episodes deliver.</p>
+    </div>
+    <div class="why-item">
+      <i class="fas fa-fire"></i>
+      <h4>Performance Heat</h4>
+      <p>Acting is the engine. We rate performances on conviction, range, and how long a scene stays in your head after the credits roll.</p>
+    </div>
+    <div class="why-item">
+      <i class="fas fa-globe"></i>
+      <h4>Cultural Impact</h4>
+      <p>Does a show change the conversation? We evaluate influence beyond the screen — memes, discourse, and lasting legacy.</p>
+    </div>
+  </div>
+</section>
+
+<div class="ad-banner"><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2620433617157030" data-ad-slot="1234567890" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({});</script></div>
 
 <footer itemscope itemtype="https://schema.org/WPFooter">
   <i class="fas fa-microphone-alt"></i> black, white &amp; yellow only &middot; human critique &middot; cinematic banners<br>

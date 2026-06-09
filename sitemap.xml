@@ -1,116 +1,796 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://icelabs.site/</loc><lastmod>2026-06-05</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://icelabs.site/shows/the-resident.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/house.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/the-good-doctor.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/scrubs.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/dr-prisoner.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/mash.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/greys-anatomy.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/new-amsterdam.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/chicago-med.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/the-knick.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/the-artful-dodger.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/the-heart-surgeons.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/transplant.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/the-pitt.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/surgeons-cut.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/better-call-saul.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/breaking-bad.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/animal-kingdom.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/snowfall.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/ozark.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/landman.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/fargo.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/top-boy.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/zerozerozero.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/dexter.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/you.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/banshee.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/preacher.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/the-return-of-dexter.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/the-recruit.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/reacher.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/whisky.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/all-american.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/bookies.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/belair.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/friday.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/gotham.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/peaky-blinders.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/arrow.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/snowpiercer.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/the-last-ship.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/murder-bot.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/terra-nova.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/stranger-things.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/game-of-thrones.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/the-expanse.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/westworld.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/dark.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/mandalorian.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/the-witcher.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/black-mirror.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/lost.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/the-100.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/altered-carbon.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/foundation.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/house-of-the-dragon.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/severance.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/fallout.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/avatar-last-airbender.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/fullmetal-alchemist.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/attack-on-titan.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/arcane.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/death-note.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/bojack-horseman.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/demon-slayer.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/one-punch-man.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/invincible.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/south-park.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/simpsons.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/family-guy.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/the-jinx.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/making-a-murderer.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/the-keepers.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/wild-wild-country.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/dont-fk-with-cats.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/night-stalker.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/the-staircase.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/tiger-king.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/evil-genius.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/confession-tapes.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/x-files.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/haunting-of-hill-house.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/hannibal.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/supernatural.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/walking-dead.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/american-horror-story.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/lovecraft-country.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/bly-manor.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/yellowjackets.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/from.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/planet-earth-ii.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/our-planet.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/blue-planet-ii.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/cosmos.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/the-last-dance.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/beatles-get-back.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/chefs-table.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/abstract.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/welcome-to-earth.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/free-solo.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/band-of-brothers.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/chernobyl.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/rome.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/generation-kill.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/vikings.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/the-last-kingdom.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/the-pacific.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/shows/all-quiet-western-front.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://icelabs.site/privacy.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://icelabs.site/terms.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://icelabs.site/about.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://icelabs.site/contact.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://icelabs.site/</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/the-resident.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://icelabs.site/images/the%20resident.webp</image:loc><image:title>The Resident TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/house.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://icelabs.site/images/house.jpg</image:loc><image:title>House TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/the-good-doctor.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://icelabs.site/images/the%20good%20doctor.jpg</image:loc><image:title>The Good Doctor TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/scrubs.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://icelabs.site/images/SCRUBS.jpg</image:loc><image:title>Scrubs TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/dr-prisoner.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://icelabs.site/images/Drprisoner.jpg</image:loc><image:title>Dr. Prisoner TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/mash.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://icelabs.site/images/MASH.jpg</image:loc><image:title>M*A*S*H TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/greys-anatomy.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://icelabs.site/images/Greysanatomy.jpg</image:loc><image:title>Grey's Anatomy TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/new-amsterdam.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://icelabs.site/images/New%20amsterdam.jpg</image:loc><image:title>New Amsterdam TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/chicago-med.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://icelabs.site/images/chicago%20med.webp</image:loc><image:title>Chicago Med TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/the-knick.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://icelabs.site/images/The%20Knick.jpg</image:loc><image:title>The Knick TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/the-artful-dodger.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://icelabs.site/images/The-Artful-Dodger-Poster-Banner-.jpg</image:loc><image:title>The Artful Dodger TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/the-heart-surgeons.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://icelabs.site/images/Heart%20Surgeons.webp</image:loc><image:title>The Heart Surgeons TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/transplant.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://icelabs.site/images/Transplant.jpg</image:loc><image:title>Transplant TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/the-pitt.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://icelabs.site/images/The%20pitt.jpg</image:loc><image:title>The Pitt TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/surgeons-cut.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://icelabs.site/images/The%20Surgeon%27s%20cut.jpg</image:loc><image:title>Surgeon's Cut TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/better-call-saul.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://icelabs.site/images/Better-Call-Saul.avif</image:loc><image:title>Better Call Saul TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/breaking-bad.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://icelabs.site/images/breaking%20bad.avif</image:loc><image:title>Breaking Bad TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/animal-kingdom.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://icelabs.site/images/animal-kingdom-1-1536x864.jpg</image:loc><image:title>Animal Kingdom TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/snowfall.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://icelabs.site/images/snowfallmain.webp</image:loc><image:title>Snowfall TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/ozark.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://icelabs.site/images/OZARK.jpg</image:loc><image:title>Ozark TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/landman.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://icelabs.site/images/Landman.jpg</image:loc><image:title>Landman TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/fargo.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://icelabs.site/images/Fargo.avif</image:loc><image:title>Fargo TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/top-boy.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://icelabs.site/images/top-boy-tv-show.webp</image:loc><image:title>Top Boy TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/zerozerozero.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://icelabs.site/images/ZERO%20ZERO%20ZERO.jfif</image:loc><image:title>ZeroZeroZero TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/dexter.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://icelabs.site/images/Dexter.jfif</image:loc><image:title>Dexter TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/you.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://icelabs.site/images/YOU.jfif</image:loc><image:title>You TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/banshee.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://icelabs.site/images/Banshee.jpg</image:loc><image:title>Banshee TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/preacher.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://icelabs.site/images/Preacher.webp</image:loc><image:title>Preacher TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/the-return-of-dexter.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://icelabs.site/images/Return%20Dexter.webp</image:loc><image:title>The Return of Dexter TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/the-recruit.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://icelabs.site/images/the%20recruit.jpg</image:loc><image:title>The Recruit TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/reacher.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://icelabs.site/images/reacher.jpg</image:loc><image:title>Reacher TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/whisky.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://icelabs.site/images/Whisky.jpg</image:loc><image:title>Whisky TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/all-american.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://icelabs.site/images/All%20america.jpg</image:loc><image:title>All American TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/bookies.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://icelabs.site/images/Bookies.webp</image:loc><image:title>Bookies TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/belair.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://icelabs.site/images/Belair.webp</image:loc><image:title>Bel-Air TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/friday.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://icelabs.site/images/Friday.jpg</image:loc><image:title>Friday TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/gotham.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://icelabs.site/images/gotham_header_h_2015.webp</image:loc><image:title>Gotham TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/peaky-blinders.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://icelabs.site/images/peakyblinders.jpg</image:loc><image:title>Peaky Blinders TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/arrow.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://icelabs.site/images/Arrow.jpg</image:loc><image:title>Arrow TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/snowpiercer.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://icelabs.site/images/Snowpiercer_Season_2_Poster.webp</image:loc><image:title>Snowpiercer TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/the-last-ship.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://icelabs.site/images/The%20last%20ship.jpg</image:loc><image:title>The Last Ship TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/murder-bot.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://icelabs.site/images/Murder%20bot.jpg</image:loc><image:title>Murder Bot TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/terra-nova.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://icelabs.site/images/terra%20nova.webp</image:loc><image:title>Terra Nova TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/stranger-things.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/stranger-things/600/170</image:loc><image:title>Stranger Things TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/game-of-thrones.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/game-of-thrones/600/170</image:loc><image:title>Game of Thrones TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/the-expanse.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/the-expanse/600/170</image:loc><image:title>The Expanse TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/westworld.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/westworld/600/170</image:loc><image:title>Westworld TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/dark.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/dark/600/170</image:loc><image:title>Dark TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/mandalorian.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/mandalorian/600/170</image:loc><image:title>The Mandalorian TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/the-witcher.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/the-witcher/600/170</image:loc><image:title>The Witcher TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/black-mirror.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/black-mirror/600/170</image:loc><image:title>Black Mirror TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/lost.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/lost/600/170</image:loc><image:title>Lost TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/the-100.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/the-100/600/170</image:loc><image:title>The 100 TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/altered-carbon.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/altered-carbon/600/170</image:loc><image:title>Altered Carbon TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/foundation.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/foundation/600/170</image:loc><image:title>Foundation TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/house-of-the-dragon.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/house-of-the-dragon/600/170</image:loc><image:title>House of the Dragon TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/severance.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/severance/600/170</image:loc><image:title>Severance TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/fallout.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/fallout/600/170</image:loc><image:title>Fallout TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/avatar-last-airbender.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/avatar-last-airbender/600/170</image:loc><image:title>Avatar: The Last Airbender TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/fullmetal-alchemist.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/fullmetal-alchemist/600/170</image:loc><image:title>Fullmetal Alchemist: Brotherhood TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/attack-on-titan.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/attack-on-titan/600/170</image:loc><image:title>Attack on Titan TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/arcane.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/arcane/600/170</image:loc><image:title>Arcane TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/death-note.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/death-note/600/170</image:loc><image:title>Death Note TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/bojack-horseman.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/bojack-horseman/600/170</image:loc><image:title>BoJack Horseman TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/demon-slayer.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/demon-slayer/600/170</image:loc><image:title>Demon Slayer TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/one-punch-man.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/one-punch-man/600/170</image:loc><image:title>One Punch Man TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/invincible.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/invincible/600/170</image:loc><image:title>Invincible TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/south-park.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/south-park/600/170</image:loc><image:title>South Park TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/simpsons.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/simpsons/600/170</image:loc><image:title>The Simpsons TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/family-guy.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/family-guy/600/170</image:loc><image:title>Family Guy TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/the-jinx.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/the-jinx/600/170</image:loc><image:title>The Jinx TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/making-a-murderer.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/making-a-murderer/600/170</image:loc><image:title>Making a Murderer TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/the-keepers.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/the-keepers/600/170</image:loc><image:title>The Keepers TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/wild-wild-country.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/wild-wild-country/600/170</image:loc><image:title>Wild Wild Country TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/dont-fk-with-cats.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/dont-fk-with-cats/600/170</image:loc><image:title>Don't F**k with Cats TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/night-stalker.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/night-stalker/600/170</image:loc><image:title>Night Stalker TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/the-staircase.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/the-staircase/600/170</image:loc><image:title>The Staircase TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/tiger-king.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/tiger-king/600/170</image:loc><image:title>Tiger King TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/evil-genius.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/evil-genius/600/170</image:loc><image:title>Evil Genius TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/confession-tapes.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/confession-tapes/600/170</image:loc><image:title>The Confession Tapes TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/x-files.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/x-files/600/170</image:loc><image:title>The X-Files TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/haunting-of-hill-house.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/haunting-of-hill-house/600/170</image:loc><image:title>The Haunting of Hill House TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/hannibal.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/hannibal/600/170</image:loc><image:title>Hannibal TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/supernatural.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/supernatural/600/170</image:loc><image:title>Supernatural TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/walking-dead.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/walking-dead/600/170</image:loc><image:title>The Walking Dead TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/american-horror-story.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/american-horror-story/600/170</image:loc><image:title>American Horror Story TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/lovecraft-country.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/lovecraft-country/600/170</image:loc><image:title>Lovecraft Country TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/bly-manor.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/bly-manor/600/170</image:loc><image:title>The Haunting of Bly Manor TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/yellowjackets.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/yellowjackets/600/170</image:loc><image:title>Yellowjackets TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/from.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/from/600/170</image:loc><image:title>From TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/planet-earth-ii.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/planet-earth-ii/600/170</image:loc><image:title>Planet Earth II TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/our-planet.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/our-planet/600/170</image:loc><image:title>Our Planet TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/blue-planet-ii.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/blue-planet-ii/600/170</image:loc><image:title>Blue Planet II TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/cosmos.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/cosmos/600/170</image:loc><image:title>Cosmos: A Spacetime Odyssey TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/the-last-dance.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/the-last-dance/600/170</image:loc><image:title>The Last Dance TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/beatles-get-back.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/beatles-get-back/600/170</image:loc><image:title>The Beatles: Get Back TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/chefs-table.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/chefs-table/600/170</image:loc><image:title>Chef's Table TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/abstract.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/abstract/600/170</image:loc><image:title>Abstract: The Art of Design TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/welcome-to-earth.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/welcome-to-earth/600/170</image:loc><image:title>Welcome to Earth TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/free-solo.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/free-solo/600/170</image:loc><image:title>Free Solo TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/band-of-brothers.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/band-of-brothers/600/170</image:loc><image:title>Band of Brothers TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/chernobyl.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/chernobyl/600/170</image:loc><image:title>Chernobyl TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/rome.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/rome/600/170</image:loc><image:title>Rome TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/generation-kill.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/generation-kill/600/170</image:loc><image:title>Generation Kill TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/vikings.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/vikings/600/170</image:loc><image:title>Vikings TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/the-last-kingdom.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/the-last-kingdom/600/170</image:loc><image:title>The Last Kingdom TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/the-pacific.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/the-pacific/600/170</image:loc><image:title>The Pacific TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/shows/all-quiet-western-front.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://picsum.photos/seed/all-quiet-western-front/600/170</image:loc><image:title>All Quiet on the Western Front TV Series</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://icelabs.site/about.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://icelabs.site/contact.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://icelabs.site/privacy.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://icelabs.site/terms.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://icelabs.site/404.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
 </urlset>
