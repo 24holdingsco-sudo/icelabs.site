@@ -50,9 +50,10 @@
     "datePublished": "2025-01-01"
   }
   </script>
+  <link rel="stylesheet" href="/style.css">
   <style>
     *{margin:0;padding:0;box-sizing:border-box;}
-    body{background:#000;font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;color:#fff;line-height:1.6;scroll-behavior:smooth;}
+    body{background:#111;font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;color:#e0e0e0;line-height:1.6;scroll-behavior:smooth;}
     .page-wrap{max-width:960px;margin:0 auto;padding:2rem 1.5rem 4rem;}
     .top-bar{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem;padding-bottom:1.5rem;border-bottom:1px solid #222;margin-bottom:2rem;}
     .logo a{font-family:'Space Grotesk',sans-serif;font-size:1.4rem;font-weight:700;color:#FFD700;text-decoration:none;letter-spacing:1px;}
@@ -61,20 +62,20 @@
     nav.breadcrumb a{color:#FFD700;text-decoration:none;}
     nav.breadcrumb a:hover{text-decoration:underline;}
     nav.breadcrumb span{color:#666;margin:0 6px;}
-    .banner-wrap{width:100%;border-radius:16px;overflow:hidden;margin-bottom:2rem;border:1px solid #222;}
+    .banner-wrap{width:100%;border-radius:16px;overflow:hidden;margin-bottom:2rem;border:1px solid #2a2a2a;}
     .banner-wrap img{width:100%;height:auto;display:block;max-height:400px;object-fit:cover;}
     .title-section{margin-bottom:2rem;}
-    .title-section h1{font-family:'Space Grotesk',sans-serif;font-size:2.6rem;font-weight:700;color:#fff;line-height:1.2;margin-bottom:0.5rem;}
+    .title-section h1{font-family:'Space Grotesk',sans-serif;font-size:2.6rem;font-weight:700;color:#e0e0e0;line-height:1.2;margin-bottom:0.5rem;}
     .meta-row{display:flex;align-items:center;flex-wrap:wrap;gap:1.2rem;margin-top:0.5rem;}
     .meta-row .stars{font-size:1.8rem;letter-spacing:4px;color:#555;}
     .meta-row .stars .full{color:#FFD700;}
     .meta-row .stars .half{position:relative;display:inline-block;color:#555;}
     .meta-row .stars .half::before{content:'\2605';position:absolute;left:0;top:0;width:50%;overflow:hidden;color:#FFD700;}
     .meta-row .score{font-size:1.1rem;font-weight:600;color:#FFD700;background:rgba(255,215,0,0.1);padding:0.3rem 1rem;border-radius:30px;border:1px solid rgba(255,215,0,0.25);}
-    .meta-row .genre{font-size:0.8rem;color:#888;background:#111;padding:0.3rem 0.9rem;border-radius:30px;border:1px solid #333;}
-    .ad-placeholder{background:#111;border:1px dashed #333;border-radius:12px;padding:2rem;text-align:center;margin:2rem 0;color:#555;font-size:0.85rem;}
+    .meta-row .genre{font-size:0.8rem;color:#888;background:#181818;padding:0.3rem 0.9rem;border-radius:30px;border:1px solid #2a2a2a;}
+    .ad-placeholder{background:#181818;border:1px dashed #333;border-radius:12px;padding:2rem;text-align:center;margin:2rem 0;color:#555;font-size:0.85rem;}
     .ad-placeholder i{margin-right:8px;}
-    article.review{background:#0a0a0a;border-radius:16px;padding:2rem;border:1px solid #222;margin:2rem 0;}
+    article.review{background:#0a0a0a;border-radius:16px;padding:2rem;border:1px solid #2a2a2a;margin:2rem 0;}
     article.review h2{font-family:'Space Grotesk',sans-serif;font-size:1.5rem;font-weight:600;color:#FFD700;margin-bottom:1.2rem;display:flex;align-items:center;gap:10px;}
     article.review p{font-size:1.05rem;color:#ccc;margin-bottom:1.2rem;}
     article.review p:last-child{margin-bottom:0;}
@@ -83,8 +84,8 @@
     footer.site-footer .footer-links a{color:#888;text-decoration:none;transition:color 0.2s;}
     footer.site-footer .footer-links a:hover{color:#FFD700;}
     footer.site-footer .copyright{color:#555;}
-    #cookie-notice{position:fixed;bottom:0;left:0;right:0;background:#111;border-top:1px solid #333;padding:1rem 1.5rem;display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:1rem;z-index:999;font-size:0.85rem;color:#aaa;}
-    #cookie-notice p{color:#aaa;}
+    #cookie-notice{position:fixed;bottom:0;left:0;right:0;background:#181818;border-top:1px solid #333;padding:1rem 1.5rem;display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:1rem;z-index:999;font-size:0.85rem;color:#999;}
+    #cookie-notice p{color:#999;}
     #cookie-notice a{color:#FFD700;text-decoration:none;}
     #cookie-notice a:hover{text-decoration:underline;}
     #cookie-notice button{background:#FFD700;color:#000;border:none;padding:0.5rem 1.5rem;border-radius:30px;font-weight:600;cursor:pointer;font-family:'Inter',sans-serif;font-size:0.85rem;transition:opacity 0.2s;}
