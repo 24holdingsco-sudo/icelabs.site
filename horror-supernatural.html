@@ -25,7 +25,7 @@
     .back-link { display:inline-block; background:#FFD700; color:#000; padding:0.6rem 1.5rem; border-radius:40px; text-decoration:none; font-weight:700; margin-bottom:1.5rem; font-size:0.9rem; }
     .back-link:hover { background:#fff; }
     .series-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:1.5rem; }
-    .series-card { background:#181818; border-radius:1.5rem; overflow:hidden; transition:transform 0.25s ease,box-shadow 0.3s ease; border:1px solid #2a2a2a; }
+    .series-card { display:block; text-decoration:none; color:inherit; background:#181818; border-radius:1.5rem; overflow:hidden; transition:transform 0.25s ease,box-shadow 0.3s ease; border:1px solid #2a2a2a; }
     .series-card:hover { transform:translateY(-4px); border-color:#FFD700; }
     .img-banner { width:100%; height:150px; background-size:cover; background-position:center; display:block; background-color:#0a0a0a; border-bottom:1px solid #2a2a2a; }
     .card-header { padding:0.8rem 1rem 0.2rem; display:flex; align-items:baseline; justify-content:space-between; flex-wrap:wrap; border-bottom:1px solid #2a2a2a; }
@@ -35,10 +35,7 @@
     .rating-area { padding:0.4rem 1rem 0.8rem; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; }
     .stars { color:#FFD700; font-size:0.85rem; letter-spacing:2px; }
     .score { background:#181818; padding:0.2rem 0.7rem; border-radius:40px; font-weight:700; font-size:0.75rem; color:#FFD700; border:1px solid #3a3a3a; }
-    .card-footer-link { padding:0.3rem 1rem 0.8rem; text-align:right; }
-    .card-footer-link a { color:#FFD700; text-decoration:none; font-size:0.78rem; font-weight:600; }
-    .card-footer-link a:hover { color:#e0e0e0; }
-    .card-footer-link a i { margin-left:5px; font-size:0.7rem; }
+
     @media (max-width:700px) { .page-header h1 { font-size:1.8rem; } .series-grid { grid-template-columns:1fr; } .card-header h3 { font-size:1rem; } .img-banner { height:130px; } }
   </style>
 </head>
@@ -50,136 +47,96 @@
     <p>Face your fears with 10 horror and supernatural series — from The X-Files to The Haunting of Hill House.</p>
   </div>
   <div class="series-grid">
-    <article class="series-card">
-      <a href="shows/x-files.html" class="img-banner" style="background-image:url('https://picsum.photos/seed/x-files/600/170')" aria-label="The X-Files"></a>
-      <div class="card-header">
+    <a href="shows/x-files.html" class="series-card">
+      <div class="img-banner" style="background-image:url('https://static.tvmaze.com/uploads/images/original_untouched/222/555002.jpg')" aria-label="The X-Files"></div><div class="card-header">
         <span class="rank">#1</span><h3>The X-Files</h3><span class="genre-tag">horror</span>
       </div>
       <div class="rating-area">
         <div class="stars">★★★★☆</div>
         <div class="score">8.6 / 10</div>
       </div>
-      <div class="card-footer-link">
-        <a href="shows/x-files.html">Read <i class="fas fa-arrow-right"></i></a>
-      </div>
-    </article>
-    <article class="series-card">
-      <a href="shows/haunting-of-hill-house.html" class="img-banner" style="background-image:url('https://picsum.photos/seed/haunting-of-hill-house/600/170')" aria-label="The Haunting of Hill House"></a>
-      <div class="card-header">
+        </a>
+    <a href="shows/haunting-of-hill-house.html" class="series-card">
+      <div class="img-banner" style="background-image:url('https://static.tvmaze.com/uploads/images/original_untouched/174/437311.jpg')" aria-label="The Haunting of Hill House"></div><div class="card-header">
         <span class="rank">#2</span><h3>The Haunting of Hill House</h3><span class="genre-tag">horror</span>
       </div>
       <div class="rating-area">
         <div class="stars">★★★★☆</div>
         <div class="score">8.6 / 10</div>
       </div>
-      <div class="card-footer-link">
-        <a href="shows/haunting-of-hill-house.html">Read <i class="fas fa-arrow-right"></i></a>
-      </div>
-    </article>
-    <article class="series-card">
-      <a href="shows/hannibal.html" class="img-banner" style="background-image:url('https://picsum.photos/seed/hannibal/600/170')" aria-label="Hannibal"></a>
-      <div class="card-header">
+        </a>
+    <a href="shows/hannibal.html" class="series-card">
+      <div class="img-banner" style="background-image:url('https://static.tvmaze.com/uploads/images/original_untouched/15/39400.jpg')" aria-label="Hannibal"></div><div class="card-header">
         <span class="rank">#3</span><h3>Hannibal</h3><span class="genre-tag">horror</span>
       </div>
       <div class="rating-area">
         <div class="stars">★★★★☆</div>
         <div class="score">8.5 / 10</div>
       </div>
-      <div class="card-footer-link">
-        <a href="shows/hannibal.html">Read <i class="fas fa-arrow-right"></i></a>
-      </div>
-    </article>
-    <article class="series-card">
-      <a href="shows/supernatural.html" class="img-banner" style="background-image:url('https://picsum.photos/seed/supernatural/600/170')" aria-label="Supernatural"></a>
-      <div class="card-header">
+        </a>
+    <a href="shows/supernatural.html" class="series-card">
+      <div class="img-banner" style="background-image:url('https://static.tvmaze.com/uploads/images/original_untouched/5/12566.jpg')" aria-label="Supernatural"></div><div class="card-header">
         <span class="rank">#4</span><h3>Supernatural</h3><span class="genre-tag">horror</span>
       </div>
       <div class="rating-area">
         <div class="stars">★★★★☆</div>
         <div class="score">8.4 / 10</div>
       </div>
-      <div class="card-footer-link">
-        <a href="shows/supernatural.html">Read <i class="fas fa-arrow-right"></i></a>
-      </div>
-    </article>
-    <article class="series-card">
-      <a href="shows/walking-dead.html" class="img-banner" style="background-image:url('https://picsum.photos/seed/walking-dead/600/170')" aria-label="The Walking Dead"></a>
-      <div class="card-header">
+        </a>
+    <a href="shows/walking-dead.html" class="series-card">
+      <div class="img-banner" style="background-image:url('https://static.tvmaze.com/uploads/images/original_untouched/4/12052.jpg')" aria-label="The Walking Dead"></div><div class="card-header">
         <span class="rank">#5</span><h3>The Walking Dead</h3><span class="genre-tag">horror</span>
       </div>
       <div class="rating-area">
         <div class="stars">★★★★☆</div>
         <div class="score">8.1 / 10</div>
       </div>
-      <div class="card-footer-link">
-        <a href="shows/walking-dead.html">Read <i class="fas fa-arrow-right"></i></a>
-      </div>
-    </article>
-    <article class="series-card">
-      <a href="shows/american-horror-story.html" class="img-banner" style="background-image:url('https://picsum.photos/seed/american-horror-story/600/170')" aria-label="American Horror Story"></a>
-      <div class="card-header">
+        </a>
+    <a href="shows/american-horror-story.html" class="series-card">
+      <div class="img-banner" style="background-image:url('https://static.tvmaze.com/uploads/images/original_untouched/13/32715.jpg')" aria-label="American Horror Story"></div><div class="card-header">
         <span class="rank">#6</span><h3>American Horror Story</h3><span class="genre-tag">horror</span>
       </div>
       <div class="rating-area">
         <div class="stars">★★★★☆</div>
         <div class="score">8.0 / 10</div>
       </div>
-      <div class="card-footer-link">
-        <a href="shows/american-horror-story.html">Read <i class="fas fa-arrow-right"></i></a>
-      </div>
-    </article>
-    <article class="series-card">
-      <a href="shows/lovecraft-country.html" class="img-banner" style="background-image:url('https://picsum.photos/seed/lovecraft-country/600/170')" aria-label="Lovecraft Country"></a>
-      <div class="card-header">
+        </a>
+    <a href="shows/lovecraft-country.html" class="series-card">
+      <div class="img-banner" style="background-image:url('https://static.tvmaze.com/uploads/images/original_untouched/266/666172.jpg')" aria-label="Lovecraft Country"></div><div class="card-header">
         <span class="rank">#7</span><h3>Lovecraft Country</h3><span class="genre-tag">horror</span>
       </div>
       <div class="rating-area">
         <div class="stars">★★★☆☆</div>
         <div class="score">7.9 / 10</div>
       </div>
-      <div class="card-footer-link">
-        <a href="shows/lovecraft-country.html">Read <i class="fas fa-arrow-right"></i></a>
-      </div>
-    </article>
-    <article class="series-card">
-      <a href="shows/bly-manor.html" class="img-banner" style="background-image:url('https://picsum.photos/seed/bly-manor/600/170')" aria-label="The Haunting of Bly Manor"></a>
-      <div class="card-header">
+        </a>
+    <a href="shows/bly-manor.html" class="series-card">
+      <div class="img-banner" style="background-image:url('https://static.tvmaze.com/uploads/images/original_untouched/270/676027.jpg')" aria-label="The Haunting of Bly Manor"></div><div class="card-header">
         <span class="rank">#8</span><h3>The Haunting of Bly Manor</h3><span class="genre-tag">horror</span>
       </div>
       <div class="rating-area">
         <div class="stars">★★★☆☆</div>
         <div class="score">7.9 / 10</div>
       </div>
-      <div class="card-footer-link">
-        <a href="shows/bly-manor.html">Read <i class="fas fa-arrow-right"></i></a>
-      </div>
-    </article>
-    <article class="series-card">
-      <a href="shows/yellowjackets.html" class="img-banner" style="background-image:url('https://picsum.photos/seed/yellowjackets/600/170')" aria-label="Yellowjackets"></a>
-      <div class="card-header">
+        </a>
+    <a href="shows/yellowjackets.html" class="series-card">
+      <div class="img-banner" style="background-image:url('https://static.tvmaze.com/uploads/images/original_untouched/368/921432.jpg')" aria-label="Yellowjackets"></div><div class="card-header">
         <span class="rank">#9</span><h3>Yellowjackets</h3><span class="genre-tag">horror</span>
       </div>
       <div class="rating-area">
         <div class="stars">★★★☆☆</div>
         <div class="score">7.9 / 10</div>
       </div>
-      <div class="card-footer-link">
-        <a href="shows/yellowjackets.html">Read <i class="fas fa-arrow-right"></i></a>
-      </div>
-    </article>
-    <article class="series-card">
-      <a href="shows/from.html" class="img-banner" style="background-image:url('https://picsum.photos/seed/from/600/170')" aria-label="From"></a>
-      <div class="card-header">
+        </a>
+    <a href="shows/from.html" class="series-card">
+      <div class="img-banner" style="background-image:url('https://static.tvmaze.com/uploads/images/original_untouched/443/1109435.jpg')" aria-label="From"></div><div class="card-header">
         <span class="rank">#10</span><h3>From</h3><span class="genre-tag">horror</span>
       </div>
       <div class="rating-area">
         <div class="stars">★★★☆☆</div>
         <div class="score">7.8 / 10</div>
       </div>
-      <div class="card-footer-link">
-        <a href="shows/from.html">Read <i class="fas fa-arrow-right"></i></a>
-      </div>
-    </article>
+        </a>
   </div>
 </div>
 <footer class="site-footer">

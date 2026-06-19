@@ -25,7 +25,7 @@
     .back-link { display:inline-block; background:#FFD700; color:#000; padding:0.6rem 1.5rem; border-radius:40px; text-decoration:none; font-weight:700; margin-bottom:1.5rem; font-size:0.9rem; }
     .back-link:hover { background:#fff; }
     .series-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:1.5rem; }
-    .series-card { background:#181818; border-radius:1.5rem; overflow:hidden; transition:transform 0.25s ease,box-shadow 0.3s ease; border:1px solid #2a2a2a; }
+    .series-card { display:block; text-decoration:none; color:inherit; background:#181818; border-radius:1.5rem; overflow:hidden; transition:transform 0.25s ease,box-shadow 0.3s ease; border:1px solid #2a2a2a; }
     .series-card:hover { transform:translateY(-4px); border-color:#FFD700; }
     .img-banner { width:100%; height:150px; background-size:cover; background-position:center; display:block; background-color:#0a0a0a; border-bottom:1px solid #2a2a2a; }
     .card-header { padding:0.8rem 1rem 0.2rem; display:flex; align-items:baseline; justify-content:space-between; flex-wrap:wrap; border-bottom:1px solid #2a2a2a; }
@@ -35,10 +35,7 @@
     .rating-area { padding:0.4rem 1rem 0.8rem; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; }
     .stars { color:#FFD700; font-size:0.85rem; letter-spacing:2px; }
     .score { background:#181818; padding:0.2rem 0.7rem; border-radius:40px; font-weight:700; font-size:0.75rem; color:#FFD700; border:1px solid #3a3a3a; }
-    .card-footer-link { padding:0.3rem 1rem 0.8rem; text-align:right; }
-    .card-footer-link a { color:#FFD700; text-decoration:none; font-size:0.78rem; font-weight:600; }
-    .card-footer-link a:hover { color:#e0e0e0; }
-    .card-footer-link a i { margin-left:5px; font-size:0.7rem; }
+
     @media (max-width:700px) { .page-header h1 { font-size:1.8rem; } .series-grid { grid-template-columns:1fr; } .card-header h3 { font-size:1rem; } .img-banner { height:130px; } }
   </style>
 </head>
@@ -50,201 +47,141 @@
     <p>Explore our curated collection of 15 medical drama series — from the corridors of Grey Sloan Memorial to the diagnostic rooms of Princeton-Plainsboro.</p>
   </div>
   <div class="series-grid">
-    <article class="series-card">
-      <a href="shows/the-resident.html" class="img-banner" style="background-image:url('https://picsum.photos/seed/the-resident/600/170')" aria-label="The Resident"></a>
-      <div class="card-header">
+    <a href="shows/the-resident.html" class="series-card">
+      <div class="img-banner" style="background-image:url('https://static.tvmaze.com/uploads/images/original_untouched/218/547397.jpg')" aria-label="The Resident"></div><div class="card-header">
         <span class="rank">#1</span><h3>The Resident</h3><span class="genre-tag">medical drama</span>
       </div>
       <div class="rating-area">
         <div class="stars">★★★★☆</div>
         <div class="score">8.4 / 10</div>
       </div>
-      <div class="card-footer-link">
-        <a href="shows/the-resident.html">Read <i class="fas fa-arrow-right"></i></a>
-      </div>
-    </article>
-    <article class="series-card">
-      <a href="shows/house.html" class="img-banner" style="background-image:url('https://picsum.photos/seed/house/600/170')" aria-label="House"></a>
-      <div class="card-header">
+        </a>
+    <a href="shows/house.html" class="series-card">
+      <div class="img-banner" style="background-image:url('https://static.tvmaze.com/uploads/images/original_untouched/222/556411.jpg')" aria-label="House"></div><div class="card-header">
         <span class="rank">#2</span><h3>House</h3><span class="genre-tag">medical drama</span>
       </div>
       <div class="rating-area">
         <div class="stars">★★★★☆</div>
         <div class="score">8.7 / 10</div>
       </div>
-      <div class="card-footer-link">
-        <a href="shows/house.html">Read <i class="fas fa-arrow-right"></i></a>
-      </div>
-    </article>
-    <article class="series-card">
-      <a href="shows/the-good-doctor.html" class="img-banner" style="background-image:url('https://picsum.photos/seed/the-good-doctor/600/170')" aria-label="The Good Doctor"></a>
-      <div class="card-header">
+        </a>
+    <a href="shows/the-good-doctor.html" class="series-card">
+      <div class="img-banner" style="background-image:url('https://static.tvmaze.com/uploads/images/original_untouched/136/341884.jpg')" aria-label="The Good Doctor"></div><div class="card-header">
         <span class="rank">#3</span><h3>The Good Doctor</h3><span class="genre-tag">medical drama</span>
       </div>
       <div class="rating-area">
         <div class="stars">★★★★☆</div>
         <div class="score">8.1 / 10</div>
       </div>
-      <div class="card-footer-link">
-        <a href="shows/the-good-doctor.html">Read <i class="fas fa-arrow-right"></i></a>
-      </div>
-    </article>
-    <article class="series-card">
-      <a href="shows/scrubs.html" class="img-banner" style="background-image:url('https://picsum.photos/seed/scrubs/600/170')" aria-label="Scrubs"></a>
-      <div class="card-header">
+        </a>
+    <a href="shows/scrubs.html" class="series-card">
+      <div class="img-banner" style="background-image:url('https://static.tvmaze.com/uploads/images/original_untouched/610/1526172.jpg')" aria-label="Scrubs"></div><div class="card-header">
         <span class="rank">#4</span><h3>Scrubs</h3><span class="genre-tag">medical drama</span>
       </div>
       <div class="rating-area">
         <div class="stars">★★★★☆</div>
         <div class="score">8.4 / 10</div>
       </div>
-      <div class="card-footer-link">
-        <a href="shows/scrubs.html">Read <i class="fas fa-arrow-right"></i></a>
-      </div>
-    </article>
-    <article class="series-card">
-      <a href="shows/dr-prisoner.html" class="img-banner" style="background-image:url('https://picsum.photos/seed/dr-prisoner/600/170')" aria-label="Dr. Prisoner"></a>
-      <div class="card-header">
+        </a>
+    <a href="shows/dr-prisoner.html" class="series-card">
+      <div class="img-banner" style="background-image:url('https://static.tvmaze.com/uploads/images/original_untouched/185/464547.jpg')" aria-label="Dr. Prisoner"></div><div class="card-header">
         <span class="rank">#5</span><h3>Dr. Prisoner</h3><span class="genre-tag">medical drama</span>
       </div>
       <div class="rating-area">
         <div class="stars">★★★★☆</div>
         <div class="score">8.0 / 10</div>
       </div>
-      <div class="card-footer-link">
-        <a href="shows/dr-prisoner.html">Read <i class="fas fa-arrow-right"></i></a>
-      </div>
-    </article>
-    <article class="series-card">
-      <a href="shows/mash.html" class="img-banner" style="background-image:url('https://picsum.photos/seed/mash/600/170')" aria-label="M*A*S*H"></a>
-      <div class="card-header">
+        </a>
+    <a href="shows/mash.html" class="series-card">
+      <div class="img-banner" style="background-image:url('https://static.tvmaze.com/uploads/images/original_untouched/219/549669.jpg')" aria-label="M*A*S*H"></div><div class="card-header">
         <span class="rank">#6</span><h3>M*A*S*H</h3><span class="genre-tag">medical drama</span>
       </div>
       <div class="rating-area">
         <div class="stars">★★★★☆</div>
         <div class="score">8.5 / 10</div>
       </div>
-      <div class="card-footer-link">
-        <a href="shows/mash.html">Read <i class="fas fa-arrow-right"></i></a>
-      </div>
-    </article>
-    <article class="series-card">
-      <a href="shows/greys-anatomy.html" class="img-banner" style="background-image:url('https://picsum.photos/seed/greys-anatomy/600/170')" aria-label="Grey's Anatomy"></a>
-      <div class="card-header">
+        </a>
+    <a href="shows/greys-anatomy.html" class="series-card">
+      <div class="img-banner" style="background-image:url('https://static.tvmaze.com/uploads/images/original_untouched/218/547162.jpg')" aria-label="Grey's Anatomy"></div><div class="card-header">
         <span class="rank">#7</span><h3>Grey's Anatomy</h3><span class="genre-tag">medical drama</span>
       </div>
       <div class="rating-area">
         <div class="stars">★★★☆☆</div>
         <div class="score">7.6 / 10</div>
       </div>
-      <div class="card-footer-link">
-        <a href="shows/greys-anatomy.html">Read <i class="fas fa-arrow-right"></i></a>
-      </div>
-    </article>
-    <article class="series-card">
-      <a href="shows/new-amsterdam.html" class="img-banner" style="background-image:url('https://picsum.photos/seed/new-amsterdam/600/170')" aria-label="New Amsterdam"></a>
-      <div class="card-header">
+        </a>
+    <a href="shows/new-amsterdam.html" class="series-card">
+      <div class="img-banner" style="background-image:url('https://static.tvmaze.com/uploads/images/original_untouched/218/547398.jpg')" aria-label="New Amsterdam"></div><div class="card-header">
         <span class="rank">#8</span><h3>New Amsterdam</h3><span class="genre-tag">medical drama</span>
       </div>
       <div class="rating-area">
         <div class="stars">★★★☆☆</div>
         <div class="score">7.9 / 10</div>
       </div>
-      <div class="card-footer-link">
-        <a href="shows/new-amsterdam.html">Read <i class="fas fa-arrow-right"></i></a>
-      </div>
-    </article>
-    <article class="series-card">
-      <a href="shows/chicago-med.html" class="img-banner" style="background-image:url('https://picsum.photos/seed/chicago-med/600/170')" aria-label="Chicago Med"></a>
-      <div class="card-header">
+        </a>
+    <a href="shows/chicago-med.html" class="series-card">
+      <div class="img-banner" style="background-image:url('https://static.tvmaze.com/uploads/images/original_untouched/78/196280.jpg')" aria-label="Chicago Med"></div><div class="card-header">
         <span class="rank">#9</span><h3>Chicago Med</h3><span class="genre-tag">medical drama</span>
       </div>
       <div class="rating-area">
         <div class="stars">★★★☆☆</div>
         <div class="score">7.4 / 10</div>
       </div>
-      <div class="card-footer-link">
-        <a href="shows/chicago-med.html">Read <i class="fas fa-arrow-right"></i></a>
-      </div>
-    </article>
-    <article class="series-card">
-      <a href="shows/the-knick.html" class="img-banner" style="background-image:url('https://picsum.photos/seed/the-knick/600/170')" aria-label="The Knick"></a>
-      <div class="card-header">
+        </a>
+    <a href="shows/the-knick.html" class="series-card">
+      <div class="img-banner" style="background-image:url('https://static.tvmaze.com/uploads/images/original_untouched/223/559351.jpg')" aria-label="The Knick"></div><div class="card-header">
         <span class="rank">#10</span><h3>The Knick</h3><span class="genre-tag">medical drama</span>
       </div>
       <div class="rating-area">
         <div class="stars">★★★★☆</div>
         <div class="score">8.5 / 10</div>
       </div>
-      <div class="card-footer-link">
-        <a href="shows/the-knick.html">Read <i class="fas fa-arrow-right"></i></a>
-      </div>
-    </article>
-    <article class="series-card">
-      <a href="shows/the-artful-dodger.html" class="img-banner" style="background-image:url('https://picsum.photos/seed/the-artful-dodger/600/170')" aria-label="The Artful Dodger"></a>
-      <div class="card-header">
+        </a>
+    <a href="shows/the-artful-dodger.html" class="series-card">
+      <div class="img-banner" style="background-image:url('https://static.tvmaze.com/uploads/images/original_untouched/489/1224109.jpg')" aria-label="The Artful Dodger"></div><div class="card-header">
         <span class="rank">#11</span><h3>The Artful Dodger</h3><span class="genre-tag">medical drama</span>
       </div>
       <div class="rating-area">
         <div class="stars">★★★☆☆</div>
         <div class="score">7.8 / 10</div>
       </div>
-      <div class="card-footer-link">
-        <a href="shows/the-artful-dodger.html">Read <i class="fas fa-arrow-right"></i></a>
-      </div>
-    </article>
-    <article class="series-card">
-      <a href="shows/the-heart-surgeons.html" class="img-banner" style="background-image:url('https://picsum.photos/seed/the-heart-surgeons/600/170')" aria-label="The Heart Surgeons"></a>
-      <div class="card-header">
+        </a>
+    <a href="shows/the-heart-surgeons.html" class="series-card">
+      <div class="img-banner" style="background-image:url('https://static.tvmaze.com/uploads/images/original_untouched/224/561531.jpg')" aria-label="The Heart Surgeons"></div><div class="card-header">
         <span class="rank">#12</span><h3>The Heart Surgeons</h3><span class="genre-tag">medical drama</span>
       </div>
       <div class="rating-area">
         <div class="stars">★★★☆☆</div>
         <div class="score">7.7 / 10</div>
       </div>
-      <div class="card-footer-link">
-        <a href="shows/the-heart-surgeons.html">Read <i class="fas fa-arrow-right"></i></a>
-      </div>
-    </article>
-    <article class="series-card">
-      <a href="shows/transplant.html" class="img-banner" style="background-image:url('https://picsum.photos/seed/transplant/600/170')" aria-label="Transplant"></a>
-      <div class="card-header">
+        </a>
+    <a href="shows/transplant.html" class="series-card">
+      <div class="img-banner" style="background-image:url('https://static.tvmaze.com/uploads/images/original_untouched/242/606103.jpg')" aria-label="Transplant"></div><div class="card-header">
         <span class="rank">#13</span><h3>Transplant</h3><span class="genre-tag">medical drama</span>
       </div>
       <div class="rating-area">
         <div class="stars">★★★★☆</div>
         <div class="score">8.0 / 10</div>
       </div>
-      <div class="card-footer-link">
-        <a href="shows/transplant.html">Read <i class="fas fa-arrow-right"></i></a>
-      </div>
-    </article>
-    <article class="series-card">
-      <a href="shows/the-pitt.html" class="img-banner" style="background-image:url('https://picsum.photos/seed/the-pitt/600/170')" aria-label="The Pitt"></a>
-      <div class="card-header">
+        </a>
+    <a href="shows/the-pitt.html" class="series-card">
+      <div class="img-banner" style="background-image:url('https://static.tvmaze.com/uploads/images/original_untouched/546/1367178.jpg')" aria-label="The Pitt"></div><div class="card-header">
         <span class="rank">#14</span><h3>The Pitt</h3><span class="genre-tag">medical drama</span>
       </div>
       <div class="rating-area">
         <div class="stars">★★★★☆</div>
         <div class="score">8.2 / 10</div>
       </div>
-      <div class="card-footer-link">
-        <a href="shows/the-pitt.html">Read <i class="fas fa-arrow-right"></i></a>
-      </div>
-    </article>
-    <article class="series-card">
-      <a href="shows/surgeons-cut.html" class="img-banner" style="background-image:url('https://picsum.photos/seed/surgeons-cut/600/170')" aria-label="Surgeon's Cut"></a>
-      <div class="card-header">
+        </a>
+    <a href="shows/surgeons-cut.html" class="series-card">
+      <div class="img-banner" style="background-image:url('https://static.tvmaze.com/uploads/images/original_untouched/404/1010121.jpg')" aria-label="Surgeon's Cut"></div><div class="card-header">
         <span class="rank">#15</span><h3>Surgeon's Cut</h3><span class="genre-tag">medical drama</span>
       </div>
       <div class="rating-area">
         <div class="stars">★★★★☆</div>
         <div class="score">8.3 / 10</div>
       </div>
-      <div class="card-footer-link">
-        <a href="shows/surgeons-cut.html">Read <i class="fas fa-arrow-right"></i></a>
-      </div>
-    </article>
+        </a>
   </div>
 </div>
 <footer class="site-footer">

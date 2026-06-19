@@ -25,7 +25,7 @@
     .back-link { display:inline-block; background:#FFD700; color:#000; padding:0.6rem 1.5rem; border-radius:40px; text-decoration:none; font-weight:700; margin-bottom:1.5rem; font-size:0.9rem; }
     .back-link:hover { background:#fff; }
     .series-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:1.5rem; }
-    .series-card { background:#181818; border-radius:1.5rem; overflow:hidden; transition:transform 0.25s ease,box-shadow 0.3s ease; border:1px solid #2a2a2a; }
+    .series-card { display:block; text-decoration:none; color:inherit; background:#181818; border-radius:1.5rem; overflow:hidden; transition:transform 0.25s ease,box-shadow 0.3s ease; border:1px solid #2a2a2a; }
     .series-card:hover { transform:translateY(-4px); border-color:#FFD700; }
     .img-banner { width:100%; height:150px; background-size:cover; background-position:center; display:block; background-color:#0a0a0a; border-bottom:1px solid #2a2a2a; }
     .card-header { padding:0.8rem 1rem 0.2rem; display:flex; align-items:baseline; justify-content:space-between; flex-wrap:wrap; border-bottom:1px solid #2a2a2a; }
@@ -35,10 +35,7 @@
     .rating-area { padding:0.4rem 1rem 0.8rem; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; }
     .stars { color:#FFD700; font-size:0.85rem; letter-spacing:2px; }
     .score { background:#181818; padding:0.2rem 0.7rem; border-radius:40px; font-weight:700; font-size:0.75rem; color:#FFD700; border:1px solid #3a3a3a; }
-    .card-footer-link { padding:0.3rem 1rem 0.8rem; text-align:right; }
-    .card-footer-link a { color:#FFD700; text-decoration:none; font-size:0.78rem; font-weight:600; }
-    .card-footer-link a:hover { color:#e0e0e0; }
-    .card-footer-link a i { margin-left:5px; font-size:0.7rem; }
+
     @media (max-width:700px) { .page-header h1 { font-size:1.8rem; } .series-grid { grid-template-columns:1fr; } .card-header h3 { font-size:1rem; } .img-banner { height:130px; } }
   </style>
 </head>
@@ -50,162 +47,114 @@
     <p>Explore 12 of the greatest animated series and anime — from the bending arts of Avatar to the Titans of Attack on Titan.</p>
   </div>
   <div class="series-grid">
-    <article class="series-card">
-      <a href="shows/avatar-last-airbender.html" class="img-banner" style="background-image:url('https://picsum.photos/seed/avatar-last-airbender/600/170')" aria-label="Avatar: The Last Airbender"></a>
-      <div class="card-header">
+    <a href="shows/avatar-last-airbender.html" class="series-card">
+      <div class="img-banner" style="background-image:url('https://static.tvmaze.com/uploads/images/original_untouched/505/1263240.jpg')" aria-label="Avatar: The Last Airbender"></div><div class="card-header">
         <span class="rank">#1</span><h3>Avatar: The Last Airbender</h3><span class="genre-tag">anime</span>
       </div>
       <div class="rating-area">
         <div class="stars">★★★★★</div>
         <div class="score">9.3 / 10</div>
       </div>
-      <div class="card-footer-link">
-        <a href="shows/avatar-last-airbender.html">Read <i class="fas fa-arrow-right"></i></a>
-      </div>
-    </article>
-    <article class="series-card">
-      <a href="shows/fullmetal-alchemist.html" class="img-banner" style="background-image:url('https://picsum.photos/seed/fullmetal-alchemist/600/170')" aria-label="Fullmetal Alchemist"></a>
-      <div class="card-header">
+        </a>
+    <a href="shows/fullmetal-alchemist.html" class="series-card">
+      <div class="img-banner" style="background-image:url('https://static.tvmaze.com/uploads/images/original_untouched/225/564673.jpg')" aria-label="Fullmetal Alchemist"></div><div class="card-header">
         <span class="rank">#2</span><h3>Fullmetal Alchemist</h3><span class="genre-tag">anime</span>
       </div>
       <div class="rating-area">
         <div class="stars">★★★★★</div>
         <div class="score">9.1 / 10</div>
       </div>
-      <div class="card-footer-link">
-        <a href="shows/fullmetal-alchemist.html">Read <i class="fas fa-arrow-right"></i></a>
-      </div>
-    </article>
-    <article class="series-card">
-      <a href="shows/attack-on-titan.html" class="img-banner" style="background-image:url('https://picsum.photos/seed/attack-on-titan/600/170')" aria-label="Attack on Titan"></a>
-      <div class="card-header">
+        </a>
+    <a href="shows/attack-on-titan.html" class="series-card">
+      <div class="img-banner" style="background-image:url('https://static.tvmaze.com/uploads/images/original_untouched/71/178808.jpg')" aria-label="Attack on Titan"></div><div class="card-header">
         <span class="rank">#3</span><h3>Attack on Titan</h3><span class="genre-tag">anime</span>
       </div>
       <div class="rating-area">
         <div class="stars">★★★★★</div>
         <div class="score">9.0 / 10</div>
       </div>
-      <div class="card-footer-link">
-        <a href="shows/attack-on-titan.html">Read <i class="fas fa-arrow-right"></i></a>
-      </div>
-    </article>
-    <article class="series-card">
-      <a href="shows/arcane.html" class="img-banner" style="background-image:url('https://picsum.photos/seed/arcane/600/170')" aria-label="Arcane"></a>
-      <div class="card-header">
+        </a>
+    <a href="shows/arcane.html" class="series-card">
+      <div class="img-banner" style="background-image:url('https://static.tvmaze.com/uploads/images/original_untouched/314/785517.jpg')" aria-label="Arcane"></div><div class="card-header">
         <span class="rank">#4</span><h3>Arcane</h3><span class="genre-tag">anime</span>
       </div>
       <div class="rating-area">
         <div class="stars">★★★★★</div>
         <div class="score">9.0 / 10</div>
       </div>
-      <div class="card-footer-link">
-        <a href="shows/arcane.html">Read <i class="fas fa-arrow-right"></i></a>
-      </div>
-    </article>
-    <article class="series-card">
-      <a href="shows/death-note.html" class="img-banner" style="background-image:url('https://picsum.photos/seed/death-note/600/170')" aria-label="Death Note"></a>
-      <div class="card-header">
+        </a>
+    <a href="shows/death-note.html" class="series-card">
+      <div class="img-banner" style="background-image:url('https://static.tvmaze.com/uploads/images/original_untouched/223/559511.jpg')" aria-label="Death Note"></div><div class="card-header">
         <span class="rank">#5</span><h3>Death Note</h3><span class="genre-tag">anime</span>
       </div>
       <div class="rating-area">
         <div class="stars">★★★★☆</div>
         <div class="score">8.9 / 10</div>
       </div>
-      <div class="card-footer-link">
-        <a href="shows/death-note.html">Read <i class="fas fa-arrow-right"></i></a>
-      </div>
-    </article>
-    <article class="series-card">
-      <a href="shows/bojack-horseman.html" class="img-banner" style="background-image:url('https://picsum.photos/seed/bojack-horseman/600/170')" aria-label="BoJack Horseman"></a>
-      <div class="card-header">
+        </a>
+    <a href="shows/bojack-horseman.html" class="series-card">
+      <div class="img-banner" style="background-image:url('https://static.tvmaze.com/uploads/images/original_untouched/405/1012641.jpg')" aria-label="BoJack Horseman"></div><div class="card-header">
         <span class="rank">#6</span><h3>BoJack Horseman</h3><span class="genre-tag">animation</span>
       </div>
       <div class="rating-area">
         <div class="stars">★★★★☆</div>
         <div class="score">8.8 / 10</div>
       </div>
-      <div class="card-footer-link">
-        <a href="shows/bojack-horseman.html">Read <i class="fas fa-arrow-right"></i></a>
-      </div>
-    </article>
-    <article class="series-card">
-      <a href="shows/demon-slayer.html" class="img-banner" style="background-image:url('https://picsum.photos/seed/demon-slayer/600/170')" aria-label="Demon Slayer"></a>
-      <div class="card-header">
+        </a>
+    <a href="shows/demon-slayer.html" class="series-card">
+      <div class="img-banner" style="background-image:url('https://static.tvmaze.com/uploads/images/original_untouched/227/569823.jpg')" aria-label="Demon Slayer"></div><div class="card-header">
         <span class="rank">#7</span><h3>Demon Slayer</h3><span class="genre-tag">anime</span>
       </div>
       <div class="rating-area">
         <div class="stars">★★★★☆</div>
         <div class="score">8.7 / 10</div>
       </div>
-      <div class="card-footer-link">
-        <a href="shows/demon-slayer.html">Read <i class="fas fa-arrow-right"></i></a>
-      </div>
-    </article>
-    <article class="series-card">
-      <a href="shows/one-punch-man.html" class="img-banner" style="background-image:url('https://picsum.photos/seed/one-punch-man/600/170')" aria-label="One Punch Man"></a>
-      <div class="card-header">
+        </a>
+    <a href="shows/one-punch-man.html" class="series-card">
+      <div class="img-banner" style="background-image:url('https://static.tvmaze.com/uploads/images/original_untouched/219/548004.jpg')" aria-label="One Punch Man"></div><div class="card-header">
         <span class="rank">#8</span><h3>One Punch Man</h3><span class="genre-tag">anime</span>
       </div>
       <div class="rating-area">
         <div class="stars">★★★★☆</div>
         <div class="score">8.7 / 10</div>
       </div>
-      <div class="card-footer-link">
-        <a href="shows/one-punch-man.html">Read <i class="fas fa-arrow-right"></i></a>
-      </div>
-    </article>
-    <article class="series-card">
-      <a href="shows/invincible.html" class="img-banner" style="background-image:url('https://picsum.photos/seed/invincible/600/170')" aria-label="Invincible"></a>
-      <div class="card-header">
+        </a>
+    <a href="shows/invincible.html" class="series-card">
+      <div class="img-banner" style="background-image:url('https://static.tvmaze.com/uploads/images/original_untouched/472/1181322.jpg')" aria-label="Invincible"></div><div class="card-header">
         <span class="rank">#9</span><h3>Invincible</h3><span class="genre-tag">animation</span>
       </div>
       <div class="rating-area">
         <div class="stars">★★★★☆</div>
         <div class="score">8.7 / 10</div>
       </div>
-      <div class="card-footer-link">
-        <a href="shows/invincible.html">Read <i class="fas fa-arrow-right"></i></a>
-      </div>
-    </article>
-    <article class="series-card">
-      <a href="shows/south-park.html" class="img-banner" style="background-image:url('https://picsum.photos/seed/south-park/600/170')" aria-label="South Park"></a>
-      <div class="card-header">
+        </a>
+    <a href="shows/south-park.html" class="series-card">
+      <div class="img-banner" style="background-image:url('https://static.tvmaze.com/uploads/images/original_untouched/75/188107.jpg')" aria-label="South Park"></div><div class="card-header">
         <span class="rank">#10</span><h3>South Park</h3><span class="genre-tag">animation</span>
       </div>
       <div class="rating-area">
         <div class="stars">★★★★☆</div>
         <div class="score">8.7 / 10</div>
       </div>
-      <div class="card-footer-link">
-        <a href="shows/south-park.html">Read <i class="fas fa-arrow-right"></i></a>
-      </div>
-    </article>
-    <article class="series-card">
-      <a href="shows/simpsons.html" class="img-banner" style="background-image:url('https://picsum.photos/seed/simpsons/600/170')" aria-label="The Simpsons"></a>
-      <div class="card-header">
+        </a>
+    <a href="shows/simpsons.html" class="series-card">
+      <div class="img-banner" style="background-image:url('https://static.tvmaze.com/uploads/images/original_untouched/218/547446.jpg')" aria-label="The Simpsons"></div><div class="card-header">
         <span class="rank">#11</span><h3>The Simpsons</h3><span class="genre-tag">animation</span>
       </div>
       <div class="rating-area">
         <div class="stars">★★★★☆</div>
         <div class="score">8.7 / 10</div>
       </div>
-      <div class="card-footer-link">
-        <a href="shows/simpsons.html">Read <i class="fas fa-arrow-right"></i></a>
-      </div>
-    </article>
-    <article class="series-card">
-      <a href="shows/family-guy.html" class="img-banner" style="background-image:url('https://picsum.photos/seed/family-guy/600/170')" aria-label="Family Guy"></a>
-      <div class="card-header">
+        </a>
+    <a href="shows/family-guy.html" class="series-card">
+      <div class="img-banner" style="background-image:url('https://static.tvmaze.com/uploads/images/original_untouched/218/547438.jpg')" aria-label="Family Guy"></div><div class="card-header">
         <span class="rank">#12</span><h3>Family Guy</h3><span class="genre-tag">animation</span>
       </div>
       <div class="rating-area">
         <div class="stars">★★★★☆</div>
         <div class="score">8.1 / 10</div>
       </div>
-      <div class="card-footer-link">
-        <a href="shows/family-guy.html">Read <i class="fas fa-arrow-right"></i></a>
-      </div>
-    </article>
+        </a>
   </div>
 </div>
 <footer class="site-footer">

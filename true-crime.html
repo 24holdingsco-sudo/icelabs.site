@@ -25,7 +25,7 @@
     .back-link { display:inline-block; background:#FFD700; color:#000; padding:0.6rem 1.5rem; border-radius:40px; text-decoration:none; font-weight:700; margin-bottom:1.5rem; font-size:0.9rem; }
     .back-link:hover { background:#fff; }
     .series-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:1.5rem; }
-    .series-card { background:#181818; border-radius:1.5rem; overflow:hidden; transition:transform 0.25s ease,box-shadow 0.3s ease; border:1px solid #2a2a2a; }
+    .series-card { display:block; text-decoration:none; color:inherit; background:#181818; border-radius:1.5rem; overflow:hidden; transition:transform 0.25s ease,box-shadow 0.3s ease; border:1px solid #2a2a2a; }
     .series-card:hover { transform:translateY(-4px); border-color:#FFD700; }
     .img-banner { width:100%; height:150px; background-size:cover; background-position:center; display:block; background-color:#0a0a0a; border-bottom:1px solid #2a2a2a; }
     .card-header { padding:0.8rem 1rem 0.2rem; display:flex; align-items:baseline; justify-content:space-between; flex-wrap:wrap; border-bottom:1px solid #2a2a2a; }
@@ -35,10 +35,7 @@
     .rating-area { padding:0.4rem 1rem 0.8rem; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; }
     .stars { color:#FFD700; font-size:0.85rem; letter-spacing:2px; }
     .score { background:#181818; padding:0.2rem 0.7rem; border-radius:40px; font-weight:700; font-size:0.75rem; color:#FFD700; border:1px solid #3a3a3a; }
-    .card-footer-link { padding:0.3rem 1rem 0.8rem; text-align:right; }
-    .card-footer-link a { color:#FFD700; text-decoration:none; font-size:0.78rem; font-weight:600; }
-    .card-footer-link a:hover { color:#e0e0e0; }
-    .card-footer-link a i { margin-left:5px; font-size:0.7rem; }
+
     @media (max-width:700px) { .page-header h1 { font-size:1.8rem; } .series-grid { grid-template-columns:1fr; } .card-header h3 { font-size:1rem; } .img-banner { height:130px; } }
   </style>
 </head>
@@ -50,136 +47,96 @@
     <p>Uncover 10 chilling true crime documentary series — from The Jinx to Making a Murderer.</p>
   </div>
   <div class="series-grid">
-    <article class="series-card">
-      <a href="shows/the-jinx.html" class="img-banner" style="background-image:url('https://picsum.photos/seed/the-jinx/600/170')" aria-label="The Jinx"></a>
-      <div class="card-header">
+    <a href="shows/the-jinx.html" class="series-card">
+      <div class="img-banner" style="background-image:url('https://static.tvmaze.com/uploads/images/original_untouched/230/576821.jpg')" aria-label="The Jinx"></div><div class="card-header">
         <span class="rank">#1</span><h3>The Jinx</h3><span class="genre-tag">true crime</span>
       </div>
       <div class="rating-area">
         <div class="stars">★★★★☆</div>
         <div class="score">8.6 / 10</div>
       </div>
-      <div class="card-footer-link">
-        <a href="shows/the-jinx.html">Read <i class="fas fa-arrow-right"></i></a>
-      </div>
-    </article>
-    <article class="series-card">
-      <a href="shows/making-a-murderer.html" class="img-banner" style="background-image:url('https://picsum.photos/seed/making-a-murderer/600/170')" aria-label="Making a Murderer"></a>
-      <div class="card-header">
+        </a>
+    <a href="shows/making-a-murderer.html" class="series-card">
+      <div class="img-banner" style="background-image:url('https://static.tvmaze.com/uploads/images/original_untouched/213/533969.jpg')" aria-label="Making a Murderer"></div><div class="card-header">
         <span class="rank">#2</span><h3>Making a Murderer</h3><span class="genre-tag">true crime</span>
       </div>
       <div class="rating-area">
         <div class="stars">★★★★☆</div>
         <div class="score">8.2 / 10</div>
       </div>
-      <div class="card-footer-link">
-        <a href="shows/making-a-murderer.html">Read <i class="fas fa-arrow-right"></i></a>
-      </div>
-    </article>
-    <article class="series-card">
-      <a href="shows/the-keepers.html" class="img-banner" style="background-image:url('https://picsum.photos/seed/the-keepers/600/170')" aria-label="The Keepers"></a>
-      <div class="card-header">
+        </a>
+    <a href="shows/the-keepers.html" class="series-card">
+      <div class="img-banner" style="background-image:url('https://image.tmdb.org/t/p/original/tXRpbIxcQeGxfs0opfm6XgXAyzX.jpg')" aria-label="The Keepers"></div><div class="card-header">
         <span class="rank">#3</span><h3>The Keepers</h3><span class="genre-tag">true crime</span>
       </div>
       <div class="rating-area">
         <div class="stars">★★★★☆</div>
         <div class="score">8.1 / 10</div>
       </div>
-      <div class="card-footer-link">
-        <a href="shows/the-keepers.html">Read <i class="fas fa-arrow-right"></i></a>
-      </div>
-    </article>
-    <article class="series-card">
-      <a href="shows/wild-wild-country.html" class="img-banner" style="background-image:url('https://picsum.photos/seed/wild-wild-country/600/170')" aria-label="Wild Wild Country"></a>
-      <div class="card-header">
+        </a>
+    <a href="shows/wild-wild-country.html" class="series-card">
+      <div class="img-banner" style="background-image:url('https://static.tvmaze.com/uploads/images/original_untouched/147/367698.jpg')" aria-label="Wild Wild Country"></div><div class="card-header">
         <span class="rank">#4</span><h3>Wild Wild Country</h3><span class="genre-tag">true crime</span>
       </div>
       <div class="rating-area">
         <div class="stars">★★★★☆</div>
         <div class="score">8.1 / 10</div>
       </div>
-      <div class="card-footer-link">
-        <a href="shows/wild-wild-country.html">Read <i class="fas fa-arrow-right"></i></a>
-      </div>
-    </article>
-    <article class="series-card">
-      <a href="shows/dont-fk-with-cats.html" class="img-banner" style="background-image:url('https://picsum.photos/seed/dont-fk-with-cats/600/170')" aria-label="Don't F**k With Cats"></a>
-      <div class="card-header">
+        </a>
+    <a href="shows/dont-fk-with-cats.html" class="series-card">
+      <div class="img-banner" style="background-image:url('https://static.tvmaze.com/uploads/images/original_untouched/229/574457.jpg')" aria-label="Don't F**k With Cats"></div><div class="card-header">
         <span class="rank">#5</span><h3>Don't F**k With Cats</h3><span class="genre-tag">true crime</span>
       </div>
       <div class="rating-area">
         <div class="stars">★★★★☆</div>
         <div class="score">8.0 / 10</div>
       </div>
-      <div class="card-footer-link">
-        <a href="shows/dont-fk-with-cats.html">Read <i class="fas fa-arrow-right"></i></a>
-      </div>
-    </article>
-    <article class="series-card">
-      <a href="shows/night-stalker.html" class="img-banner" style="background-image:url('https://picsum.photos/seed/night-stalker/600/170')" aria-label="Night Stalker"></a>
-      <div class="card-header">
+        </a>
+    <a href="shows/night-stalker.html" class="series-card">
+      <div class="img-banner" style="background-image:url('https://static.tvmaze.com/uploads/images/original_untouched/289/722954.jpg')" aria-label="Night Stalker"></div><div class="card-header">
         <span class="rank">#6</span><h3>Night Stalker</h3><span class="genre-tag">true crime</span>
       </div>
       <div class="rating-area">
         <div class="stars">★★★☆☆</div>
         <div class="score">7.9 / 10</div>
       </div>
-      <div class="card-footer-link">
-        <a href="shows/night-stalker.html">Read <i class="fas fa-arrow-right"></i></a>
-      </div>
-    </article>
-    <article class="series-card">
-      <a href="shows/the-staircase.html" class="img-banner" style="background-image:url('https://picsum.photos/seed/the-staircase/600/170')" aria-label="The Staircase"></a>
-      <div class="card-header">
+        </a>
+    <a href="shows/the-staircase.html" class="series-card">
+      <div class="img-banner" style="background-image:url('https://static.tvmaze.com/uploads/images/original_untouched/402/1005254.jpg')" aria-label="The Staircase"></div><div class="card-header">
         <span class="rank">#7</span><h3>The Staircase</h3><span class="genre-tag">true crime</span>
       </div>
       <div class="rating-area">
         <div class="stars">★★★☆☆</div>
         <div class="score">7.9 / 10</div>
       </div>
-      <div class="card-footer-link">
-        <a href="shows/the-staircase.html">Read <i class="fas fa-arrow-right"></i></a>
-      </div>
-    </article>
-    <article class="series-card">
-      <a href="shows/tiger-king.html" class="img-banner" style="background-image:url('https://picsum.photos/seed/tiger-king/600/170')" aria-label="Tiger King"></a>
-      <div class="card-header">
+        </a>
+    <a href="shows/tiger-king.html" class="series-card">
+      <div class="img-banner" style="background-image:url('https://static.tvmaze.com/uploads/images/original_untouched/382/955625.jpg')" aria-label="Tiger King"></div><div class="card-header">
         <span class="rank">#8</span><h3>Tiger King</h3><span class="genre-tag">true crime</span>
       </div>
       <div class="rating-area">
         <div class="stars">★★★☆☆</div>
         <div class="score">7.6 / 10</div>
       </div>
-      <div class="card-footer-link">
-        <a href="shows/tiger-king.html">Read <i class="fas fa-arrow-right"></i></a>
-      </div>
-    </article>
-    <article class="series-card">
-      <a href="shows/evil-genius.html" class="img-banner" style="background-image:url('https://picsum.photos/seed/evil-genius/600/170')" aria-label="Evil Genius"></a>
-      <div class="card-header">
+        </a>
+    <a href="shows/evil-genius.html" class="series-card">
+      <div class="img-banner" style="background-image:url('https://static.tvmaze.com/uploads/images/original_untouched/219/549891.jpg')" aria-label="Evil Genius"></div><div class="card-header">
         <span class="rank">#9</span><h3>Evil Genius</h3><span class="genre-tag">true crime</span>
       </div>
       <div class="rating-area">
         <div class="stars">★★★☆☆</div>
         <div class="score">7.6 / 10</div>
       </div>
-      <div class="card-footer-link">
-        <a href="shows/evil-genius.html">Read <i class="fas fa-arrow-right"></i></a>
-      </div>
-    </article>
-    <article class="series-card">
-      <a href="shows/confession-tapes.html" class="img-banner" style="background-image:url('https://picsum.photos/seed/confession-tapes/600/170')" aria-label="The Confession Tapes"></a>
-      <div class="card-header">
+        </a>
+    <a href="shows/confession-tapes.html" class="series-card">
+      <div class="img-banner" style="background-image:url('https://static.tvmaze.com/uploads/images/original_untouched/220/551642.jpg')" aria-label="The Confession Tapes"></div><div class="card-header">
         <span class="rank">#10</span><h3>The Confession Tapes</h3><span class="genre-tag">true crime</span>
       </div>
       <div class="rating-area">
         <div class="stars">★★★☆☆</div>
         <div class="score">7.5 / 10</div>
       </div>
-      <div class="card-footer-link">
-        <a href="shows/confession-tapes.html">Read <i class="fas fa-arrow-right"></i></a>
-      </div>
-    </article>
+        </a>
   </div>
 </div>
 <footer class="site-footer">
